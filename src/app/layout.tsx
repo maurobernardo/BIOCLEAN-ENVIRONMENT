@@ -21,6 +21,20 @@ export const metadata: Metadata = {
     siteName: "BIOCLEAN ENVIRONMENT SU, LDA",
     locale: "pt_MZ",
     type: "website",
+    images: [
+      {
+        url: "https://www.biocleanenvironment.com/images/og-share.png",
+        width: 1200,
+        height: 630,
+        alt: "BIOCLEAN ENVIRONMENT - Consultoria Ambiental e Social em Moçambique",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "BIOCLEAN ENVIRONMENT SU, LDA",
+    description:
+      "Soluções profissionais em consultoria ambiental e social em Moçambique.",
   },
 };
 

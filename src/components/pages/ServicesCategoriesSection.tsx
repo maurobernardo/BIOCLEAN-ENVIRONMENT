@@ -38,7 +38,7 @@ const categoriesPt: ServiceCategory[] = [
     services: [
       {
         title: "Consultoria Ambiental",
-        image: "/galeria/Nampula.jpeg",
+        image: "/Galeria/Nampula.jpeg",
         bullets: [
           "Licenciamento Ambiental.",
           "Estudos de Impacto Ambiental (EIA/EIAS).",
@@ -49,7 +49,7 @@ const categoriesPt: ServiceCategory[] = [
       },
       {
         title: "Monitoramento Ambiental",
-        image: "/galeria/Nampula1.jpeg",
+        image: "/Galeria/Nampula1.jpeg",
         bullets: [
           "Qualidade do Ar.",
           "Análise de Água.",
@@ -60,7 +60,7 @@ const categoriesPt: ServiceCategory[] = [
       },
       {
         title: "Auditorias Ambientais Privadas",
-        image: "/galeria/Zambezia.jpeg",
+        image: "/Galeria/Zambezia.jpeg",
         bullets: [
           "Auditorias de Conformidade Legal.",
           "Auditorias Internas ISO 14001.",
@@ -76,7 +76,7 @@ const categoriesPt: ServiceCategory[] = [
     services: [
       {
         title: "Planos e Programas de Saúde e Segurança Ocupacional",
-        image: "/galeria/HST.jpeg",
+        image: "/Galeria/HST.jpeg",
         bullets: [
           "Elaboração de planos de segurança.",
           "Programas de prevenção de acidentes.",
@@ -86,7 +86,7 @@ const categoriesPt: ServiceCategory[] = [
       },
       {
         title: "Implementação de Sistemas de Gestão (ISO 45001)",
-        image: "/galeria/HST.jpeg",
+        image: "/Galeria/HST.jpeg",
         bullets: [
           "Diagnóstico e gap analysis.",
           "Desenvolvimento de documentação.",
@@ -96,7 +96,7 @@ const categoriesPt: ServiceCategory[] = [
       },
       {
         title: "Indução e Treinamentos",
-        image: "/galeria/HST.jpeg",
+        image: "/Galeria/HST.jpeg",
         bullets: [
           "Treinamentos de segurança específicos.",
           "Simulacros de emergência.",
@@ -112,7 +112,7 @@ const categoriesPt: ServiceCategory[] = [
     services: [
       {
         title: "Prevenção da Violência Baseada no Género (VBG)",
-        image: "/galeria/Social.jpeg",
+        image: "/Galeria/Social.jpeg",
         bullets: [
           "Formação e sensibilização.",
           "Criação de políticas de proteção.",
@@ -122,7 +122,7 @@ const categoriesPt: ServiceCategory[] = [
       },
       {
         title: "Promoção de Desenvolvimento Comunitário",
-        image: "/galeria/Social.jpeg",
+        image: "/Galeria/Social.jpeg",
         bullets: [
           "Programas de capacitação.",
           "Apoio a micro‑empreendimentos.",
@@ -133,7 +133,7 @@ const categoriesPt: ServiceCategory[] = [
       {
         title:
           "Planos de Reassentamento de Populações Atingidas por Projectos (PAPs)",
-        image: "/galeria/Social.jpeg",
+        image: "/Galeria/Social.jpeg",
         bullets: [
           "Avaliação socioeconómica.",
           "Consulta e participação das comunidades.",
@@ -149,7 +149,7 @@ const categoriesPt: ServiceCategory[] = [
     services: [
       {
         title: "Limpeza de Equipamentos",
-        image: "/galeria/Nacala.jpeg",
+        image: "/Galeria/Nacala.jpeg",
         bullets: [
           "Desengorduramento.",
           "Desinfecção.",
@@ -159,7 +159,7 @@ const categoriesPt: ServiceCategory[] = [
       },
       {
         title: "Limpeza Industrial",
-        image: "/galeria/Nacala.jpeg",
+        image: "/Galeria/Nacala.jpeg",
         bullets: [
           "Atuação em oficinas, armazéns e áreas técnicas.",
           "Ambientes logísticos e industriais.",
@@ -169,7 +169,7 @@ const categoriesPt: ServiceCategory[] = [
       },
       {
         title: "Lavagem à Seco",
-        image: "/galeria/Nampula1.jpeg",
+        image: "/Galeria/Nampula1.jpeg",
         bullets: [
           "Limpeza de sofás.",
           "Tapetes e cortinas.",
@@ -185,7 +185,7 @@ const categoriesPt: ServiceCategory[] = [
     services: [
       {
         title: "Engenharia e Manutenção",
-        image: "/galeria/Zambezia.jpeg",
+        image: "/Galeria/Zambezia.jpeg",
         bullets: [
           "Construção e Manutenção de Furos de Água.",
           "Instalação e Manutenção de Sistemas Elétricos.",
@@ -195,7 +195,7 @@ const categoriesPt: ServiceCategory[] = [
       },
       {
         title: "Projeção e Manutenção de Sistemas de Gestão de Resíduos Sólidos",
-        image: "/galeria/Zambezia.jpeg",
+        image: "/Galeria/Zambezia.jpeg",
         bullets: [
           "Projetos de recolha, transporte e tratamento de resíduos.",
           "Resíduos urbanos, industriais e hospitalares.",
@@ -205,7 +205,7 @@ const categoriesPt: ServiceCategory[] = [
       },
       {
         title: "Consultoria em Sustentabilidade e Energias Renováveis",
-        image: "/galeria/Social.jpeg",
+        image: "/Galeria/Social.jpeg",
         bullets: [
           "Projetos de eficiência energética e energias limpas.",
           "Avaliação de pegada de carbono.",
@@ -224,7 +224,7 @@ const categoriesEn: ServiceCategory[] = [
     services: [
       {
         title: "Environmental Consulting",
-        image: "/galeria/Nampula.jpeg",
+        image: "/Galeria/Nampula.jpeg",
         bullets: [
           "Environmental licensing.",
           "Environmental Impact Studies (EIA/EIAS).",
@@ -235,7 +235,7 @@ const categoriesEn: ServiceCategory[] = [
       },
       {
         title: "Environmental Monitoring",
-        image: "/galeria/Nampula1.jpeg",
+        image: "/Galeria/Nampula1.jpeg",
         bullets: [
           "Air quality.",
           "Water analysis.",
@@ -246,7 +246,7 @@ const categoriesEn: ServiceCategory[] = [
       },
       {
         title: "Private Environmental Audits",
-        image: "/galeria/Zambezia.jpeg",
+        image: "/Galeria/Zambezia.jpeg",
         bullets: [
           "Legal compliance audits.",
           "Internal ISO 14001 audits.",
@@ -262,7 +262,7 @@ const categoriesEn: ServiceCategory[] = [
     services: [
       {
         title: "Occupational Health and Safety Plans and Programs",
-        image: "/galeria/HST.jpeg",
+        image: "/Galeria/HST.jpeg",
         bullets: [
           "Development of safety plans.",
           "Accident prevention programs.",
@@ -272,7 +272,7 @@ const categoriesEn: ServiceCategory[] = [
       },
       {
         title: "Management Systems Implementation (ISO 45001)",
-        image: "/galeria/HST.jpeg",
+        image: "/Galeria/HST.jpeg",
         bullets: [
           "Diagnosis and gap analysis.",
           "Documentation development.",
@@ -282,7 +282,7 @@ const categoriesEn: ServiceCategory[] = [
       },
       {
         title: "Induction and Trainings",
-        image: "/galeria/HST.jpeg",
+        image: "/Galeria/HST.jpeg",
         bullets: [
           "Specific safety trainings.",
           "Emergency drills.",
@@ -298,7 +298,7 @@ const categoriesEn: ServiceCategory[] = [
     services: [
       {
         title: "Gender‑Based Violence (GBV) Prevention",
-        image: "/galeria/Social.jpeg",
+        image: "/Galeria/Social.jpeg",
         bullets: [
           "Training and awareness.",
           "Protection policy development.",
@@ -308,7 +308,7 @@ const categoriesEn: ServiceCategory[] = [
       },
       {
         title: "Community Development Promotion",
-        image: "/galeria/Social.jpeg",
+        image: "/Galeria/Social.jpeg",
         bullets: [
           "Capacity‑building programs.",
           "Support to micro‑enterprises.",
@@ -319,7 +319,7 @@ const categoriesEn: ServiceCategory[] = [
       {
         title:
           "Resettlement Plans for Project‑Affected Populations (PAPs)",
-        image: "/galeria/Social.jpeg",
+        image: "/Galeria/Social.jpeg",
         bullets: [
           "Socio‑economic assessment.",
           "Community consultation and participation.",
@@ -335,7 +335,7 @@ const categoriesEn: ServiceCategory[] = [
     services: [
       {
         title: "Equipment Cleaning",
-        image: "/galeria/Nacala.jpeg",
+        image: "/Galeria/Nacala.jpeg",
         bullets: [
           "Degreasing.",
           "Disinfection.",
@@ -345,7 +345,7 @@ const categoriesEn: ServiceCategory[] = [
       },
       {
         title: "Industrial Cleaning",
-        image: "/galeria/Nacala.jpeg",
+        image: "/Galeria/Nacala.jpeg",
         bullets: [
           "Workshops, warehouses and technical areas.",
           "Logistics and industrial environments.",
@@ -355,7 +355,7 @@ const categoriesEn: ServiceCategory[] = [
       },
       {
         title: "Dry Cleaning",
-        image: "/galeria/Nampula1.jpeg",
+        image: "/Galeria/Nampula1.jpeg",
         bullets: [
           "Sofa cleaning.",
           "Carpets and curtains.",
@@ -371,7 +371,7 @@ const categoriesEn: ServiceCategory[] = [
     services: [
       {
         title: "Engineering and Maintenance",
-        image: "/galeria/Zambezia.jpeg",
+        image: "/Galeria/Zambezia.jpeg",
         bullets: [
           "Construction and maintenance of boreholes.",
           "Installation and maintenance of electrical systems.",
@@ -382,7 +382,7 @@ const categoriesEn: ServiceCategory[] = [
       {
         title:
           "Design and Maintenance of Solid Waste Management Systems",
-        image: "/galeria/Zambezia.jpeg",
+        image: "/Galeria/Zambezia.jpeg",
         bullets: [
           "Design of collection, transport and treatment systems.",
           "Urban, industrial and hospital waste.",
@@ -392,7 +392,7 @@ const categoriesEn: ServiceCategory[] = [
       },
       {
         title: "Sustainability and Renewable Energy Consulting",
-        image: "/galeria/Social.jpeg",
+        image: "/Galeria/Social.jpeg",
         bullets: [
           "Energy efficiency and clean energy projects.",
           "Carbon footprint assessment.",

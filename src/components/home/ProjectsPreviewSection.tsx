@@ -14,42 +14,42 @@ const projects = [
     category: "ambiental" as Category,
     location: "Nampula",
     type: "Ambiental",
-    image: "/galeria/Nampula.jpeg"
+    image: "/Galeria/Nampula.jpeg"
   },
   {
     name: "Plano de Segurança Ocupacional — Construtora, Pemba",
     category: "hst" as Category,
     location: "Pemba",
     type: "HST",
-    image: "/galeria/HST.jpeg"
+    image: "/Galeria/HST.jpeg"
   },
   {
     name: "Limpeza Industrial — Armazém Logístico, Nacala",
     category: "limpeza" as Category,
     location: "Nacala",
     type: "Limpeza",
-    image: "/galeria/Nacala.jpeg"
+    image: "/Galeria/Nacala.jpeg"
   },
   {
     name: "EIA — Projecto Agroindustrial, Zambézia",
     category: "ambiental" as Category,
     location: "Zambézia",
     type: "Ambiental",
-    image: "/galeria/Zambezia.jpeg"
+    image: "/Galeria/Zambezia.jpeg"
   },
   {
     name: "Gestão de Resíduos — Hospital Provincial, Nampula",
     category: "ambiental" as Category,
     location: "Nampula",
     type: "Ambiental",
-    image: "/galeria/Nampula1.jpeg"
+    image: "/Galeria/Nampula1.jpeg"
   },
   {
     name: "Reassentamento Comunitário — Projecto de Infraestrutura",
     category: "social" as Category,
     location: "Moçambique",
     type: "Social",
-    image: "/galeria/Social.jpeg"
+    image: "/Galeria/Social.jpeg"
   }
 ];
 

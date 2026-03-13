@@ -22,7 +22,7 @@ const projectsPt: Project[] = [
     category: "ambiental",
     location: "Nampula",
     type: "Ambiental",
-    image: "/galeria/Nampula.jpeg",
+    image: "/Galeria/Nampula.jpeg",
     description:
       "Avaliação abrangente de conformidade ambiental e optimização de processos para reduzir impactos."
   },
@@ -31,7 +31,7 @@ const projectsPt: Project[] = [
     category: "hst",
     location: "Pemba",
     type: "HST",
-    image: "/galeria/HST.jpeg",
+    image: "/Galeria/HST.jpeg",
     description:
       "Desenvolvimento de plano de segurança e formação em HST para equipas de obra."
   },
@@ -40,7 +40,7 @@ const projectsPt: Project[] = [
     category: "limpeza",
     location: "Nacala",
     type: "Limpeza",
-    image: "/galeria/Nacala.jpeg",
+    image: "/Galeria/Nacala.jpeg",
     description:
       "Serviço especializado de limpeza profunda e manutenção de armazéns logísticos."
   },
@@ -49,7 +49,7 @@ const projectsPt: Project[] = [
     category: "ambiental",
     location: "Zambézia",
     type: "Ambiental",
-    image: "/galeria/Zambezia.jpeg",
+    image: "/Galeria/Zambezia.jpeg",
     description:
       "Estudo de impacto ambiental para novo empreendimento agroindustrial, com foco em uso sustentável de recursos."
   },
@@ -58,7 +58,7 @@ const projectsPt: Project[] = [
     category: "ambiental",
     location: "Nampula",
     type: "Ambiental",
-    image: "/galeria/Nampula1.jpeg",
+    image: "/Galeria/Nampula1.jpeg",
     description:
       "Implementação de plano integrado de gestão de resíduos hospitalares."
   },
@@ -67,7 +67,7 @@ const projectsPt: Project[] = [
     category: "social",
     location: "Moçambique",
     type: "Social",
-    image: "/galeria/Social.jpeg",
+    image: "/Galeria/Social.jpeg",
     description:
       "Apoio técnico em processos de reassentamento e envolvimento comunitário."
   }
@@ -79,7 +79,7 @@ const projectsEn: Project[] = [
     category: "ambiental",
     location: "Nampula",
     type: "Environmental",
-    image: "/galeria/Nampula.jpeg",
+    image: "/Galeria/Nampula.jpeg",
     description:
       "Comprehensive assessment of environmental compliance and process optimization to reduce impacts."
   },
@@ -88,7 +88,7 @@ const projectsEn: Project[] = [
     category: "hst",
     location: "Pemba",
     type: "OHS",
-    image: "/galeria/HST.jpeg",
+    image: "/Galeria/HST.jpeg",
     description:
       "Development of a safety plan and OHS training for construction teams."
   },
@@ -97,7 +97,7 @@ const projectsEn: Project[] = [
     category: "limpeza",
     location: "Nacala",
     type: "Cleaning",
-    image: "/galeria/Nacala.jpeg",
+    image: "/Galeria/Nacala.jpeg",
     description:
       "Specialized deep‑cleaning and maintenance service for logistics warehouses."
   },
@@ -106,7 +106,7 @@ const projectsEn: Project[] = [
     category: "ambiental",
     location: "Zambézia",
     type: "Environmental",
-    image: "/galeria/Zambezia.jpeg",
+    image: "/Galeria/Zambezia.jpeg",
     description:
       "Environmental impact assessment for a new agro‑industrial venture focused on sustainable resource use."
   },
@@ -115,7 +115,7 @@ const projectsEn: Project[] = [
     category: "ambiental",
     location: "Nampula",
     type: "Environmental",
-    image: "/galeria/Nampula1.jpeg",
+    image: "/Galeria/Nampula1.jpeg",
     description:
       "Implementation of an integrated management plan for hospital waste."
   },
@@ -124,7 +124,7 @@ const projectsEn: Project[] = [
     category: "social",
     location: "Mozambique",
     type: "Social",
-    image: "/galeria/Social.jpeg",
+    image: "/Galeria/Social.jpeg",
     description:
       "Technical support for resettlement processes and community engagement."
   }

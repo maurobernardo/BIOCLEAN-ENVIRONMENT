@@ -32,7 +32,7 @@ export function HeroSection() {
       {/* Background image + gradient overlay */}
       <div className="absolute inset-0">
         <Image
-          src="/images/Fundo.JPG"
+          src="/images/Fundo.jpg"
           alt="Paisagem ambiental"
           fill
           priority

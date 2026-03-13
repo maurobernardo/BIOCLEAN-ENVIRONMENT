@@ -1,0 +1,163 @@
+{
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "services": "Serviços",
+    "projects": "Projectos",
+    "contact": "Contacto",
+    "ctaProposal": "Contacte-nos"
+  },
+  "hero": {
+    "badge": "BIOCLEAN ENVIRONMENT · NAMPULA",
+    "headline": "Ambiente Protegido, Futuro Sustentável.",
+    "tagline": "Soluções Profissionais em Consultoria Ambiental e Social",
+    "ctaServices": "Conheça os Nossos Serviços",
+    "ctaContact": "Fale Connosco",
+    "foundedBadge": "Fundada em 2024 · Nampula, Moçambique",
+    "sideTitle": "Consultoria Ambiental e Social",
+    "sideBody": "Assessoria completa em estudos de impacto ambiental, gestão de resíduos, higiene e segurança no trabalho, e projectos sociais sustentáveis em Moçambique.",
+    "cardTitle": "Soluções Sustentáveis para o Seu Projecto",
+    "cardBody": "Damos suporte técnico em todas as fases do ciclo de vida do projecto, garantindo conformidade, redução de impactos e criação de valor ambiental.",
+    "trustLabel": "Organizações em Moçambique confiam na BIOCLEAN"
+  },
+  "stats": {
+    "services": "Serviços Especializados",
+    "commitment": "Compromisso Ambiental",
+    "sectors": "Sectores Atendidos",
+    "foundation": "Fundação"
+  },
+  "homeAbout": {
+    "kicker": "Sobre Nós",
+    "title": "Quem Somos",
+    "body1": "A BIOCLEAN ENVIRONMENT SU, LDA é uma empresa de consultoria ambiental e social sediada em Nampula, Moçambique, fundada em 2024. Atuamos em diferentes sectores, apoiando organizações públicas e privadas a cumprir requisitos legais, mitigar impactos e potenciar oportunidades de desenvolvimento sustentável.",
+    "body2": "Com uma equipa multidisciplinar e uma visão orientada para resultados, combinamos rigor técnico, conhecimento local e soluções inovadoras para criar valor ambiental, social e económico para os nossos clientes.",
+    "pillars": {
+      "innovationTitle": "Inovação",
+      "innovationBody": "Aplicamos metodologias modernas e tecnologia para soluções ambientais eficientes e adaptadas ao contexto moçambicano.",
+      "sustainabilityTitle": "Sustentabilidade",
+      "sustainabilityBody": "Priorizamos o equilíbrio entre desenvolvimento económico, conservação ambiental e bem-estar das comunidades.",
+      "complianceTitle": "Conformidade",
+      "complianceBody": "Garantimos alinhamento com a legislação moçambicana e normas internacionais de gestão ambiental e social."
+    }
+  },
+  "homeServices": {
+    "kicker": "Serviços",
+    "title": "Os Nossos Serviços",
+    "intro": "Um portfólio completo de serviços ambientais, sociais e de higiene e segurança no trabalho, desenhado para apoiar empresas em todo o ciclo de vida dos seus projectos."
+  },
+  "homeWhyUs": {
+    "kicker": "Por que Nos Escolher",
+    "title": "Vantagens de Trabalhar Connosco",
+    "items": {
+      "teamTitle": "Equipa Profissional",
+      "teamBody": "Engenheiros e especialistas com experiência prática em projectos em todo o país.",
+      "solutionsTitle": "Soluções Flexíveis",
+      "solutionsBody": "Abordagens ajustadas à dimensão, sector e nível de maturidade de cada cliente.",
+      "ecoTitle": "Produtos Ecológicos",
+      "ecoBody": "Priorizamos materiais e processos com menor pegada ambiental sempre que possível."
+    }
+  },
+  "homeCeo": {
+    "kicker": "Liderança",
+    "title": "CEO & Fundador",
+    "name": "Manuel Jivane Andrade",
+    "role": "CEO | Engenheiro Rural | Especialista em Água, Saneamento e Gestão Ambiental",
+    "education": "Licenciado pela Universidade Eduardo Mondlane (2022).",
+    "bio": "Com experiência em projectos de água, saneamento, gestão de resíduos e consultoria ambiental, lidera a BIOCLEAN ENVIRONMENT com foco em rigor técnico, ética e impacto positivo nas comunidades.",
+    "skillsLabel": "Competências-Chave"
+  },
+  "homeProjects": {
+    "kicker": "Galeria de Projectos",
+    "title": "Experiência em Diferentes Sectores",
+    "filterAll": "Todos",
+    "filterEnvironmental": "Ambiental",
+    "filterCleaning": "Limpeza",
+    "filterSocial": "Social",
+    "filterHst": "HST",
+    "cta": "Ver Todos os Projectos"
+  },
+  "homeTestimonials": {
+    "kicker": "Testemunhos",
+    "title": "O Que Dizem Os Nossos Clientes"
+  },
+  "homePartners": {
+    "kicker": "Parceiros",
+    "title": "Os Nossos Parceiros"
+  },
+  "homeBlog": {
+    "kicker": "Artigos & Insights",
+    "title": "Conhecimento e Inovação"
+  },
+  "homeCta": {
+    "title": "Pronto para Tornar a Sua Empresa Mais Sustentável?",
+    "subtitle": "Fale connosco para desenhar uma solução ajustada às necessidades do seu projecto.",
+    "button": "Solicitar Proposta Agora"
+  },
+  "homeFaq": {
+    "kicker": "FAQ",
+    "title": "Perguntas Frequentes",
+    "items": {
+      "q1": "Quanto tempo demora para responderem ao meu pedido?",
+      "a1": "Normalmente respondemos em até 1 dia útil, dependendo da complexidade do projecto.",
+      "q2": "Atendem apenas empresas em Nampula?",
+      "a2": "Não. Atuamos em diferentes províncias de Moçambique, de acordo com a necessidade do cliente.",
+      "q3": "As propostas têm custo?",
+      "a3": "A análise inicial do pedido e a elaboração de uma proposta base não têm custos associados.",
+      "q4": "Como posso solicitar consultoria técnica?",
+      "a4": "Entre em contacto através do formulário, email ou telefone. Respondemos com uma proposta personalizada para o seu projecto."
+    }
+  },
+  "homeContactMini": {
+    "kicker": "Contacto Rápido",
+    "title": "Como Podemos Ajudar?",
+    "description": "Entre em contacto por telefone, email ou através do formulário dedicado na página de contacto."
+  },
+  "pages": {
+    "sobre": {
+      "kicker": "Sobre Nós",
+      "title": "Compromisso com a Excelência Ambiental em Moçambique",
+      "intro": "A BIOCLEAN ENVIRONMENT SU, LDA nasceu em 2024, na cidade de Nampula, com o propósito de apoiar empresas e instituições públicas a integrar a sustentabilidade ambiental e social no centro das suas decisões."
+    },
+    "servicos": {
+      "kicker": "Serviços",
+      "title": "Soluções Integradas em Ambiente, Segurança e Impacto Social",
+      "intro": "Da avaliação de impacto ambiental à implementação de programas sociais e de higiene e segurança no trabalho, oferecemos um portfólio completo de serviços ajustados à realidade moçambicana."
+    },
+    "projectos": {
+      "kicker": "Projectos",
+      "title": "Galeria de Projectos",
+      "intro": "Seleção de projectos que ilustram a diversidade de sectores e desafios ambientais e sociais com que trabalhamos em Moçambique."
+    },
+    "contacto": {
+      "kicker": "Contacto",
+      "title": "Fale Connosco",
+      "intro": "Partilhe os desafios ambientais e sociais da sua organização e trabalharemos consigo para encontrar a melhor solução.",
+      "form": {
+        "name": "Nome",
+        "namePlaceholder": "O seu nome completo",
+        "email": "Email",
+        "emailPlaceholder": "seu@email.com",
+        "phone": "Telefone",
+        "phonePlaceholder": "+258 XX XXX XXXX",
+        "service": "Serviço de Interesse",
+        "servicePlaceholder": "Selecione um serviço",
+        "message": "Mensagem",
+        "messagePlaceholder": "Descreva o seu pedido ou projecto...",
+        "submit": "Enviar Mensagem",
+        "services": {
+          "consultoria": "Consultoria Ambiental",
+          "monitoramento": "Monitoramento Ambiental",
+          "hst": "Higiene e Segurança no Trabalho",
+          "limpeza": "Limpeza Geral e Industrial",
+          "residuos": "Gestão de Resíduos",
+          "social": "Implementação e Gestão Social"
+        }
+      },
+      "contactBox": {
+        "title": "Contactos Directos",
+        "mapPlaceholder": "Localização · Bairro Muhala Expansão, Nampula"
+      }
+    }
+  }
+}
+

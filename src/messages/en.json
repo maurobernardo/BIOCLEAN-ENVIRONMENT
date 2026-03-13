@@ -1,0 +1,163 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact",
+    "ctaProposal": "Contact Us"
+  },
+  "hero": {
+    "badge": "BIOCLEAN ENVIRONMENT · NAMPULA",
+    "headline": "Protecting Today, Shaping Tomorrow.",
+    "tagline": "Professional Environmental and Social Consulting Solutions",
+    "ctaServices": "Explore Our Services",
+    "ctaContact": "Talk to Us",
+    "foundedBadge": "Founded in 2024 · Nampula, Mozambique",
+    "sideTitle": "Environmental & Social Consulting",
+    "sideBody": "End-to-end advisory in environmental impact assessments, waste management, occupational health and safety, and sustainable social projects in Mozambique.",
+    "cardTitle": "Sustainable Solutions for Your Project",
+    "cardBody": "We support you throughout the entire project lifecycle, ensuring compliance, reduced impacts and long-term environmental value.",
+    "trustLabel": "Organizations in Mozambique trust BIOCLEAN"
+  },
+  "stats": {
+    "services": "Specialized Services",
+    "commitment": "Environmental Commitment",
+    "sectors": "Sectors Served",
+    "foundation": "Foundation"
+  },
+  "homeAbout": {
+    "kicker": "About Us",
+    "title": "Who We Are",
+    "body1": "BIOCLEAN ENVIRONMENT SU, LDA is an environmental and social consulting company based in Nampula, Mozambique, founded in 2024. We work across different sectors, helping public and private organizations meet legal requirements, mitigate impacts and unlock sustainable development opportunities.",
+    "body2": "With a multidisciplinary team and a results-oriented mindset, we combine technical rigor, local knowledge and innovative solutions to create environmental, social and economic value for our clients.",
+    "pillars": {
+      "innovationTitle": "Innovation",
+      "innovationBody": "We apply modern methodologies and technology to deliver efficient environmental solutions tailored to the Mozambican context.",
+      "sustainabilityTitle": "Sustainability",
+      "sustainabilityBody": "We prioritize the balance between economic development, environmental conservation and community well-being.",
+      "complianceTitle": "Compliance",
+      "complianceBody": "We ensure alignment with Mozambican legislation and international environmental and social management standards."
+    }
+  },
+  "homeServices": {
+    "kicker": "Services",
+    "title": "Our Services",
+    "intro": "A comprehensive portfolio of environmental, social and occupational health & safety services designed to support companies throughout the entire project lifecycle."
+  },
+  "homeWhyUs": {
+    "kicker": "Why Choose Us",
+    "title": "Advantages of Working With Us",
+    "items": {
+      "teamTitle": "Professional Team",
+      "teamBody": "Engineers and specialists with hands-on experience across projects nationwide.",
+      "solutionsTitle": "Flexible Solutions",
+      "solutionsBody": "Approaches tailored to the size, sector and maturity level of each client.",
+      "ecoTitle": "Eco-Friendly Products",
+      "ecoBody": "We prioritize materials and processes with a lower environmental footprint whenever possible."
+    }
+  },
+  "homeCeo": {
+    "kicker": "Leadership",
+    "title": "CEO & Founder",
+    "name": "Manuel Jivane Andrade",
+    "role": "CEO | Rural Engineer | Specialist in Water, Sanitation and Environmental Management",
+    "education": "Graduated from Universidade Eduardo Mondlane (2022).",
+    "bio": "With experience in water, sanitation, waste management and environmental consulting projects, he leads BIOCLEAN ENVIRONMENT with a strong focus on technical rigor, ethics and positive community impact.",
+    "skillsLabel": "Key Skills"
+  },
+  "homeProjects": {
+    "kicker": "Project Gallery",
+    "title": "Experience Across Multiple Sectors",
+    "filterAll": "All",
+    "filterEnvironmental": "Environmental",
+    "filterCleaning": "Cleaning",
+    "filterSocial": "Social",
+    "filterHst": "OHS",
+    "cta": "View All Projects"
+  },
+  "homeTestimonials": {
+    "kicker": "Testimonials",
+    "title": "What Our Clients Say"
+  },
+  "homePartners": {
+    "kicker": "Partners",
+    "title": "Our Partners"
+  },
+  "homeBlog": {
+    "kicker": "Articles & Insights",
+    "title": "Knowledge and Innovation"
+  },
+  "homeCta": {
+    "title": "Ready to Make Your Business More Sustainable?",
+    "subtitle": "Talk to us and we will design a solution tailored to your project needs.",
+    "button": "Request Proposal Now"
+  },
+  "homeFaq": {
+    "kicker": "FAQ",
+    "title": "Frequently Asked Questions",
+    "items": {
+      "q1": "How long does it take to respond to my request?",
+      "a1": "We typically respond within 1 business day, depending on project complexity.",
+      "q2": "Do you only serve companies in Nampula?",
+      "a2": "No. We work across different provinces in Mozambique, according to client needs.",
+      "q3": "Do proposals have a cost?",
+      "a3": "The initial request analysis and preparation of a base proposal have no associated costs.",
+      "q4": "How can I request technical consulting?",
+      "a4": "Get in touch via the form, email or phone. We will respond with a tailored proposal for your project."
+    }
+  },
+  "homeContactMini": {
+    "kicker": "Quick Contact",
+    "title": "How Can We Help?",
+    "description": "Reach out by phone, email or through the dedicated form on the contact page."
+  },
+  "pages": {
+    "sobre": {
+      "kicker": "About Us",
+      "title": "Committed to Environmental Excellence in Mozambique",
+      "intro": "BIOCLEAN ENVIRONMENT SU, LDA was founded in 2024 in the city of Nampula to support companies and public institutions in placing environmental and social sustainability at the heart of their decisions."
+    },
+    "servicos": {
+      "kicker": "Services",
+      "title": "Integrated Solutions in Environment, Safety and Social Impact",
+      "intro": "From environmental impact assessments to social programs and occupational health & safety, we offer a full portfolio of services tailored to the Mozambican reality."
+    },
+    "projectos": {
+      "kicker": "Projects",
+      "title": "Project Gallery",
+      "intro": "A selection of projects illustrating the range of sectors and environmental and social challenges we work with in Mozambique."
+    },
+    "contacto": {
+      "kicker": "Contact",
+      "title": "Get in Touch",
+      "intro": "Share the environmental and social challenges of your organization and we will work with you to find the best solution.",
+      "form": {
+        "name": "Name",
+        "namePlaceholder": "Your full name",
+        "email": "Email",
+        "emailPlaceholder": "your@email.com",
+        "phone": "Phone",
+        "phonePlaceholder": "+258 XX XXX XXXX",
+        "service": "Service of Interest",
+        "servicePlaceholder": "Select a service",
+        "message": "Message",
+        "messagePlaceholder": "Describe your request or project...",
+        "submit": "Send Message",
+        "services": {
+          "consultoria": "Environmental Consulting",
+          "monitoramento": "Environmental Monitoring",
+          "hst": "Occupational Health and Safety",
+          "limpeza": "General and Industrial Cleaning",
+          "residuos": "Waste Management",
+          "social": "Social Implementation and Management"
+        }
+      },
+      "contactBox": {
+        "title": "Direct Contacts",
+        "mapPlaceholder": "Location · Muhala Expansão, Nampula"
+      }
+    }
+  }
+}
+

@@ -5,16 +5,9 @@ import { useTranslations } from "next-intl";
 import { Linkedin } from "lucide-react";
 import Image from "next/image";
 
-const skills = [
-  "ISO 14001",
-  "ISO 45001",
-  "HIRA",
-  "Gestão de Resíduos",
-  "Sustentabilidade"
-];
-
 export function CeoSection() {
   const t = useTranslations("homeCeo");
+  const skills = t.raw("skills") as string[];
 
   return (
     <section className="section-divider relative overflow-hidden bg-white">
@@ -48,21 +41,23 @@ export function CeoSection() {
                 </div>
               </div>
               <div className="mt-6 text-center">
-                <div className="inline-flex w-fit items-center gap-2 rounded-full bg-primary/10 px-3 py-1 text-[10px] font-mono uppercase tracking-[0.2em] text-primary">
+                <div className="inline-flex w-fit items-center gap-2 rounded-full bg-primary/10 px-3 py-1 text-xs font-mono uppercase tracking-[0.2em] text-primary">
                   {t("kicker")}
                 </div>
                 <h2 className="mt-2 font-display text-2xl font-extrabold text-primary">
                   {t("title")}
                 </h2>
-                <p className="mt-1 text-base font-bold text-primary">{t("name")}</p>
-                <p className="mt-1 max-w-xs text-sm text-warm-gray leading-relaxed">{t("role")}</p>
-                <p className="mt-1 text-xs text-warm-gray">{t("education")}</p>
+                <p className="mt-1 text-sm font-bold text-primary sm:text-base">{t("name")}</p>
+                <p className="mt-1 max-w-md text-sm text-warm-gray leading-relaxed sm:text-base">{t("role")}</p>
+                {t("education") ? (
+                  <p className="mt-1 text-sm text-warm-gray">{t("education")}</p>
+                ) : null}
               </div>
               <a
                 href="https://www.linkedin.com/company/bioclean-environment-lda/"
                 target="_blank"
                 rel="noreferrer"
-                className="mt-6 inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-primary/30 transition hover:bg-primary-accent hover:shadow-primary/40"
+                className="mt-6 inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-white shadow-lg shadow-primary/30 transition hover:bg-primary-accent hover:shadow-primary/40 sm:text-base"
               >
                 <Linkedin className="h-4 w-4" />
                 LinkedIn
@@ -77,19 +72,19 @@ export function CeoSection() {
             transition={{ duration: 0.7 }}
             className="space-y-5"
           >
-            <div className="inline-flex w-fit items-center gap-2 rounded-full border border-primary/30 bg-primary/5 px-4 py-1.5 text-[11px] font-mono uppercase tracking-[0.18em] text-primary">
+            <div className="inline-flex w-fit items-center gap-2 rounded-full border border-primary/30 bg-primary/5 px-4 py-1.5 text-xs font-mono uppercase tracking-[0.18em] text-primary">
               <span className="h-1.5 w-1.5 rounded-full bg-primary" />
               <span>{t("kicker")}</span>
             </div>
-            <p className="text-base text-warm-gray leading-relaxed">{t("bio")}</p>
-          <p className="text-xs font-mono uppercase tracking-[0.18em] text-primary">
+            <p className="text-sm text-warm-gray leading-relaxed md:text-base">{t("bio")}</p>
+          <p className="text-sm font-mono uppercase tracking-[0.18em] text-primary">
             {t("skillsLabel")}
           </p>
           <div className="flex flex-wrap gap-2">
             {skills.map((skill) => (
               <span
                 key={skill}
-                className="rounded-lg border border-primary/30 bg-white px-4 py-2 text-sm font-medium text-primary shadow-sm transition hover:border-primary hover:bg-primary/5"
+                className="rounded-lg border border-primary/30 bg-white px-4 py-2 text-sm font-medium text-primary shadow-sm transition hover:border-primary hover:bg-primary/5 sm:text-base"
               >
                 {skill}
               </span>
@@ -101,5 +96,3 @@ export function CeoSection() {
     </section>
   );
 }
-
-

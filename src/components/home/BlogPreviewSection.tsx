@@ -37,7 +37,7 @@ export function BlogPreviewSection() {
 
       <div className="section-container section-padding relative z-10">
       <div className="space-y-3 text-center">
-        <div className="inline-flex w-fit items-center gap-2 rounded-full border border-primary-soft/60 bg-primary-soft/20 px-4 py-1 text-[11px] font-mono uppercase tracking-[0.18em] text-primary">
+        <div className="inline-flex w-fit items-center gap-2 rounded-full border border-primary-soft/60 bg-primary-soft/20 px-4 py-1 text-xs font-mono uppercase tracking-[0.18em] text-primary">
           <span className="h-1.5 w-1.5 rounded-full bg-primary" />
           <span>{t("kicker")}</span>
         </div>
@@ -55,13 +55,13 @@ export function BlogPreviewSection() {
             whileHover={{ y: -6, boxShadow: "0 20px 50px rgba(0,0,0,0.12)" }}
             className="flex flex-col rounded-2xl border-2 border-primary-soft/60 bg-white/95 p-4 text-left shadow-sm transition hover:border-primary/40"
           >
-            <p className="text-[11px] font-mono uppercase tracking-[0.18em] text-primary">
+            <p className="text-xs font-mono uppercase tracking-[0.18em] text-primary">
               {post.category} · {post.date}
             </p>
-            <h3 className="mt-2 text-sm font-semibold">{post.title}</h3>
+            <h3 className="mt-2 text-sm font-semibold sm:text-base">{post.title}</h3>
             <a
               href={post.href}
-              className="mt-3 text-xs font-medium text-primary underline-offset-2 hover:underline"
+              className="mt-3 text-sm font-medium text-primary underline-offset-2 hover:underline"
             >
               Ler Mais
             </a>

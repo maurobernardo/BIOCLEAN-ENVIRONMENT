@@ -30,16 +30,16 @@ export function CtaBannerSection() {
             <h2 className="font-display text-2xl sm:text-3xl">
               {t("title")}
             </h2>
-            <p className="text-sm text-primary-soft">{t("subtitle")}</p>
+            <p className="text-sm text-primary-soft leading-relaxed md:text-base">{t("subtitle")}</p>
           </div>
           <div className="flex flex-col gap-2 sm:items-end">
             <Link
               href={`/${locale}/contacto`}
-              className="rounded-full bg-gold px-6 py-3 text-xs font-semibold uppercase tracking-[0.18em] text-charcoal shadow-lg shadow-gold/40 transition hover:shadow-xl hover:shadow-gold/60"
+              className="rounded-full bg-gold px-6 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-charcoal shadow-lg shadow-gold/40 transition hover:shadow-xl hover:shadow-gold/60"
             >
               {t("button")}
             </Link>
-            <span className="text-xs font-mono text-primary-soft">
+            <span className="text-sm font-mono text-primary-soft">
               +258 87 808 5088 · +258 87 637 2482
             </span>
           </div>

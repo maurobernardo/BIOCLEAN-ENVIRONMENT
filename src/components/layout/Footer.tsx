@@ -3,40 +3,10 @@
 import { Facebook, Linkedin, MessageCircle } from "lucide-react";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
-import { useLocale } from "next-intl";
-
-const footerCopy = {
-  pt: {
-    tagline: "Soluções profissionais em consultoria ambiental e social em Moçambique.",
-    founded: "Fundada em 2024 · Nampula, Moçambique",
-    contacts: "Contactos",
-    quickLinks: "Links Rápidos",
-    home: "Início",
-    about: "Sobre Nós",
-    services: "Serviços",
-    projects: "Projectos",
-    contact: "Contacto",
-    social: "Redes Sociais",
-    copyright: "© 2026 BIOCLEAN ENVIRONMENT SU, LDA. Todos os direitos reservados."
-  },
-  en: {
-    tagline: "Professional environmental and social consulting solutions in Mozambique.",
-    founded: "Founded in 2024 · Nampula, Mozambique",
-    contacts: "Contacts",
-    quickLinks: "Quick Links",
-    home: "Home",
-    about: "About Us",
-    services: "Services",
-    projects: "Projects",
-    contact: "Contact",
-    social: "Social Media",
-    copyright: "© 2026 BIOCLEAN ENVIRONMENT SU, LDA. All rights reserved."
-  }
-};
+import { useTranslations } from "next-intl";
 
 export function Footer() {
-  const locale = useLocale();
-  const copy = locale === "en" ? footerCopy.en : footerCopy.pt;
+  const t = useTranslations("footer");
 
   return (
     <footer className="border-t border-primary-soft/40 bg-primary text-zinc-100">
@@ -50,37 +20,35 @@ export function Footer() {
               height={40}
               className="rounded-full bg-white/10 p-1"
             />
-            <h3 className="text-base font-semibold text-white">
+            <h3 className="text-sm font-semibold text-white sm:text-base">
               BIOCLEAN ENVIRONMENT SU, LDA
             </h3>
           </div>
-          <p className="mt-3 text-sm text-primary-soft">{copy.tagline}</p>
-          <p className="mt-3 text-xs text-primary-soft/80">{copy.founded}</p>
+          <p className="mt-3 text-sm text-primary-soft leading-relaxed md:text-base">{t("tagline")}</p>
+          <p className="mt-3 text-sm text-primary-soft/80">{t("founded")}</p>
         </div>
 
         <div>
-          <h4 className="text-sm font-semibold text-white">{copy.contacts}</h4>
-          <p className="mt-2 text-sm">
+          <h4 className="text-sm font-semibold text-white sm:text-base">{t("contacts")}</h4>
+          <p className="mt-2 text-sm md:text-base">
             Tel: +258 87 808 5088 / +258 87 637 2482
           </p>
-          <p className="mt-1 text-sm">Email: info@biocleanenvironment.com</p>
-          <p className="mt-1 text-sm">
-            Bairro Muhala Expansão, Nampula, Moçambique
-          </p>
+          <p className="mt-1 text-sm md:text-base">Email: info@biocleanenvironment.com</p>
+          <p className="mt-1 text-sm md:text-base">{t("address")}</p>
         </div>
 
         <div className="space-y-4">
           <div>
-            <h4 className="text-sm font-semibold text-gold">
-              {copy.quickLinks}
+            <h4 className="text-sm font-semibold text-gold sm:text-base">
+              {t("quickLinks")}
             </h4>
-            <ul className="mt-2 space-y-1 text-sm text-primary-soft">
+            <ul className="mt-2 space-y-1 text-sm text-primary-soft md:text-base">
               <li>
                 <Link
                   href="/"
                   className="transition hover:text-white hover:underline hover:underline-offset-2"
                 >
-                  {copy.home}
+                  {t("home")}
                 </Link>
               </li>
               <li>
@@ -88,7 +56,7 @@ export function Footer() {
                   href="/sobre"
                   className="transition hover:text-white hover:underline hover:underline-offset-2"
                 >
-                  {copy.about}
+                  {t("about")}
                 </Link>
               </li>
               <li>
@@ -96,7 +64,7 @@ export function Footer() {
                   href="/servicos"
                   className="transition hover:text-white hover:underline hover:underline-offset-2"
                 >
-                  {copy.services}
+                  {t("services")}
                 </Link>
               </li>
               <li>
@@ -104,7 +72,7 @@ export function Footer() {
                   href="/projectos"
                   className="transition hover:text-white hover:underline hover:underline-offset-2"
                 >
-                  {copy.projects}
+                  {t("projects")}
                 </Link>
               </li>
               <li>
@@ -112,19 +80,19 @@ export function Footer() {
                   href="/contacto"
                   className="transition hover:text-white hover:underline hover:underline-offset-2"
                 >
-                  {copy.contact}
+                  {t("contact")}
                 </Link>
               </li>
             </ul>
           </div>
           <div>
-            <h4 className="text-sm font-semibold text-gold">{copy.social}</h4>
+            <h4 className="text-sm font-semibold text-gold sm:text-base">{t("social")}</h4>
             <div className="mt-2 flex flex-wrap gap-2">
               <a
                 href="https://www.linkedin.com/company/bioclean-environment-lda/"
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-3 py-2 text-sm text-primary-soft transition hover:bg-white/20"
+                className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-3 py-2 text-sm text-primary-soft transition hover:bg-white/20 md:text-base"
               >
                 <Linkedin className="h-4 w-4 text-gold" />
                 LinkedIn
@@ -133,7 +101,7 @@ export function Footer() {
                 href="https://www.facebook.com/share/1Aty6UbRf2/"
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-3 py-2 text-sm text-primary-soft transition hover:bg-white/20"
+                className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-3 py-2 text-sm text-primary-soft transition hover:bg-white/20 md:text-base"
               >
                 <Facebook className="h-4 w-4 text-gold" />
                 Facebook
@@ -142,7 +110,7 @@ export function Footer() {
                 href="https://wa.me/258876372482"
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-3 py-2 text-sm text-primary-soft transition hover:bg-white/20"
+                className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-3 py-2 text-sm text-primary-soft transition hover:bg-white/20 md:text-base"
               >
                 <MessageCircle className="h-4 w-4 text-gold" />
                 WhatsApp
@@ -152,10 +120,9 @@ export function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-primary-soft/50 bg-gold py-3 text-center text-[11px] text-charcoal">
-        {copy.copyright}
+      <div className="border-t border-primary-soft/50 bg-gold py-3 text-center text-xs text-charcoal">
+        {t("copyright")}
       </div>
     </footer>
   );
 }
-

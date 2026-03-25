@@ -21,47 +21,47 @@ export function ContactMiniSection() {
         transition={{ duration: 0.7 }}
         className="space-y-3 text-center"
       >
-        <p className="text-xs font-mono uppercase tracking-[0.18em] text-primary">
+        <p className="text-sm font-mono uppercase tracking-[0.18em] text-primary">
           {t("kicker")}
         </p>
         <h2 className="font-display text-3xl sm:text-4xl">{t("title")}</h2>
-        <p className="mx-auto max-w-2xl text-sm text-warm-gray">
+        <p className="mx-auto max-w-2xl text-sm text-warm-gray leading-relaxed md:text-base">
           {t("description")}
         </p>
       </motion.div>
 
       <div className="mt-8 grid gap-4 sm:grid-cols-3">
-        <div className="flex items-center gap-3 rounded-2xl border border-primary-soft/40 bg-white/90 p-4 text-sm">
+        <div className="flex items-center gap-3 rounded-2xl border border-primary-soft/40 bg-white/90 p-4 text-sm md:text-base">
           <div className="flex h-9 w-9 items-center justify-center rounded-full bg-primary-soft/30 text-primary">
             <Phone className="h-4 w-4" />
           </div>
           <div>
-            <p className="text-xs font-semibold">Telefone</p>
-            <p className="text-xs text-warm-gray">
+            <p className="text-sm font-semibold">Telefone</p>
+            <p className="text-sm text-warm-gray">
               +258 87 808 5088
               <br />
               +258 87 637 2482
             </p>
           </div>
         </div>
-        <div className="flex items-center gap-3 rounded-2xl border border-primary-soft/40 bg-white/90 p-4 text-sm">
+        <div className="flex items-center gap-3 rounded-2xl border border-primary-soft/40 bg-white/90 p-4 text-sm md:text-base">
           <div className="flex h-9 w-9 items-center justify-center rounded-full bg-primary-soft/30 text-primary">
             <Mail className="h-4 w-4" />
           </div>
           <div>
-            <p className="text-xs font-semibold">Email</p>
-            <p className="text-xs text-warm-gray">
+            <p className="text-sm font-semibold">Email</p>
+            <p className="text-sm text-warm-gray">
               info@biocleanenvironment.com
             </p>
           </div>
         </div>
-        <div className="flex items-center gap-3 rounded-2xl border border-primary-soft/40 bg-white/90 p-4 text-sm">
+        <div className="flex items-center gap-3 rounded-2xl border border-primary-soft/40 bg-white/90 p-4 text-sm md:text-base">
           <div className="flex h-9 w-9 items-center justify-center rounded-full bg-primary-soft/30 text-primary">
             <MapPin className="h-4 w-4" />
           </div>
           <div>
-            <p className="text-xs font-semibold">Endereço</p>
-            <p className="text-xs text-warm-gray">
+            <p className="text-sm font-semibold">Endereço</p>
+            <p className="text-sm text-warm-gray">
               Bairro Muhala Expansão
               <br />
               Nampula, Moçambique
@@ -70,7 +70,7 @@ export function ContactMiniSection() {
         </div>
       </div>
 
-      <div className="mt-6 text-center text-xs">
+      <div className="mt-6 text-center text-sm">
         <Link
           href={`/${locale}/contacto`}
           className="font-mono uppercase tracking-[0.18em] text-primary underline-offset-2 hover:underline"

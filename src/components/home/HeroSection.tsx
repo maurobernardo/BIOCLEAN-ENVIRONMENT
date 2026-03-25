@@ -26,6 +26,7 @@ export function HeroSection() {
   const pathname = usePathname();
   const segments = pathname.split("/").filter(Boolean);
   const locale = segments[0] === "pt" || segments[0] === "en" ? segments[0] : "pt";
+  const pills = t.raw("pills") as string[];
 
   return (
     <section className="relative min-h-screen overflow-hidden text-white">
@@ -33,7 +34,7 @@ export function HeroSection() {
       <div className="absolute inset-0">
         <Image
           src="/images/Fundo.jpg"
-          alt="Paisagem ambiental"
+          alt={t("imageAlt")}
           fill
           priority
           className="object-cover"
@@ -99,21 +100,14 @@ export function HeroSection() {
             variants={item}
             className="mt-4 flex flex-wrap gap-2 text-[11px] font-mono uppercase tracking-[0.16em] text-zinc-200"
           >
-            <span className="rounded-full bg-black/35 px-3 py-1">
-              Consultoria Ambiental
-            </span>
-            <span className="rounded-full bg-black/35 px-3 py-1">
-              Higiene &amp; Segurança
-            </span>
-            <span className="rounded-full bg-black/35 px-3 py-1">
-              Limpeza Industrial
-            </span>
-            <span className="rounded-full bg-black/35 px-3 py-1">
-              Gestão de Resíduos
-            </span>
-            <span className="rounded-full bg-black/35 px-3 py-1">
-              Projectos Sociais
-            </span>
+            {pills.map((label) => (
+              <span
+                key={label}
+                className="rounded-full bg-black/35 px-3 py-1"
+              >
+                {label}
+              </span>
+            ))}
           </motion.div>
         </motion.div>
 
@@ -124,7 +118,7 @@ export function HeroSection() {
       <div className="pointer-events-none absolute inset-y-0 left-4 hidden md:flex">
         <div className="flex flex-col items-center justify-center gap-4 text-xs text-zinc-200">
           <div className="pointer-events-auto flex -rotate-90 items-center gap-2 font-mono uppercase tracking-[0.18em]">
-            <span>Seguir</span>
+            <span>{t("followLabel")}</span>
           </div>
           <div className="h-16 w-px bg-white/40" />
           <div className="pointer-events-auto flex flex-col gap-3">

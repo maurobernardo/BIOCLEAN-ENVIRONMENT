@@ -55,7 +55,7 @@ export function StatsBand() {
                 <span ref={counterRef} />
                 <span>{stat.suffix}</span>
               </div>
-              <p className="mt-1 text-xs font-mono uppercase tracking-[0.18em] text-zinc-400">
+              <p className="mt-1 text-sm font-mono uppercase tracking-[0.18em] text-zinc-400">
                 {stat.label}
               </p>
             </motion.div>

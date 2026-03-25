@@ -8,17 +8,26 @@
     "ctaProposal": "Contacte-nos"
   },
   "hero": {
-    "badge": "BIOCLEAN ENVIRONMENT · NAMPULA",
+    "badge": "BIOCLEAN ENVIRONMENT · NAMPULA & MAPUTO",
     "headline": "Ambiente Protegido, Futuro Sustentável.",
-    "tagline": "Soluções Profissionais em Consultoria Ambiental e Social",
+    "tagline": "Consultoria Ambiental, Social e Saúde e segurança Ocupacional",
     "ctaServices": "Conheça os Nossos Serviços",
     "ctaContact": "Fale Connosco",
-    "foundedBadge": "Fundada em 2024 · Nampula, Moçambique",
-    "sideTitle": "Consultoria Ambiental e Social",
+    "foundedBadge": "Fundada em 2024 · Nampula e Maputo, Moçambique",
+    "sideTitle": "Consultoria Ambiental, Social e Saúde e Segurança Ocupacional",
     "sideBody": "Assessoria completa em estudos de impacto ambiental, gestão de resíduos, higiene e segurança no trabalho, e projectos sociais sustentáveis em Moçambique.",
     "cardTitle": "Soluções Sustentáveis para o Seu Projecto",
     "cardBody": "Damos suporte técnico em todas as fases do ciclo de vida do projecto, garantindo conformidade, redução de impactos e criação de valor ambiental.",
-    "trustLabel": "Organizações em Moçambique confiam na BIOCLEAN"
+    "trustLabel": "Organizações em Moçambique confiam na BIOCLEAN",
+    "followLabel": "Seguir",
+    "pills": [
+      "Consultoria Ambiental & Social",
+      "Saúde e Segurança Ocupacional",
+      "Limpeza Industrial",
+      "Gestão de Resíduos",
+      "Projectos Sociais"
+    ],
+    "imageAlt": "Paisagem ambiental"
   },
   "stats": {
     "services": "Serviços Especializados",
@@ -29,7 +38,7 @@
   "homeAbout": {
     "kicker": "Sobre Nós",
     "title": "Quem Somos",
-    "body1": "A BIOCLEAN ENVIRONMENT SU, LDA é uma empresa de consultoria ambiental e social sediada em Nampula, Moçambique, fundada em 2024. Atuamos em diferentes sectores, apoiando organizações públicas e privadas a cumprir requisitos legais, mitigar impactos e potenciar oportunidades de desenvolvimento sustentável.",
+    "body1": "A BIOCLEAN ENVIRONMENT SU, LDA é uma empresa de consultoria ambiental, social e saúde e segurança ocupacional, com sede em Nampula e presença em Nampula e Maputo, Moçambique, fundada em 2024. Atuamos em diferentes sectores, apoiando organizações públicas e privadas a cumprir requisitos legais, mitigar impactos e potenciar oportunidades de desenvolvimento sustentável.",
     "body2": "Com uma equipa multidisciplinar e uma visão orientada para resultados, combinamos rigor técnico, conhecimento local e soluções inovadoras para criar valor ambiental, social e económico para os nossos clientes.",
     "pillars": {
       "innovationTitle": "Inovação",
@@ -43,7 +52,69 @@
   "homeServices": {
     "kicker": "Serviços",
     "title": "Os Nossos Serviços",
-    "intro": "Um portfólio completo de serviços ambientais, sociais e de higiene e segurança no trabalho, desenhado para apoiar empresas em todo o ciclo de vida dos seus projectos."
+    "intro": "Um portfólio completo de serviços ambientais, sociais e de higiene e segurança no trabalho, desenhado para apoiar empresas em todo o ciclo de vida dos seus projectos.",
+    "items": {
+      "consultoria": {
+        "title": "Consultoria Ambiental",
+        "description": "Estudos de Impacto Ambiental (EIA), auditorias, planos de gestão e monitoria de desempenho ambiental.",
+        "bullets": [
+          "Estudos de Impacto Ambiental (EIA)",
+          "Planos de Gestão Ambiental",
+          "Auditorias Ambientais",
+          "Licenciamento Ambiental"
+        ]
+      },
+      "monitoramento": {
+        "title": "Monitoramento Ambiental",
+        "description": "Monitoria periódica de indicadores físicos, químicos e biológicos para controlo de impactos.",
+        "bullets": [
+          "Monitoria de qualidade de água",
+          "Monitoria de qualidade do ar",
+          "Ruído e vibrações",
+          "Relatórios de conformidade"
+        ]
+      },
+      "hst": {
+        "title": "Higiene & Segurança no Trabalho",
+        "description": "Avaliação de riscos, HIRA, planos de segurança e capacitação de equipas.",
+        "bullets": [
+          "Avaliação de riscos (HIRA)",
+          "Planos de segurança ocupacional",
+          "Formação em HST",
+          "Procedimentos de emergência"
+        ]
+      },
+      "limpeza": {
+        "title": "Limpeza Geral e Industrial",
+        "description": "Serviços de limpeza profissional para escritórios, unidades industriais e infraestruturas críticas.",
+        "bullets": [
+          "Limpeza de escritórios",
+          "Limpeza industrial pesada",
+          "Limpeza pós-obra",
+          "Planos de manutenção"
+        ]
+      },
+      "residuos": {
+        "title": "Gestão de Resíduos",
+        "description": "Soluções integradas para resíduos sólidos urbanos, industriais e hospitalares.",
+        "bullets": [
+          "Planos de gestão de resíduos",
+          "Segregação e armazenamento",
+          "Transporte e destino final",
+          "Resíduos hospitalares"
+        ]
+      },
+      "social": {
+        "title": "Implementação e Gestão Social",
+        "description": "Programas sociais, reassentamento, consulta pública e envolvimento comunitário.",
+        "bullets": [
+          "Planos de gestão social",
+          "Reassentamento e compensações",
+          "Consulta e participação pública",
+          "Monitoria de impacto social"
+        ]
+      }
+    }
   },
   "homeWhyUs": {
     "kicker": "Por que Nos Escolher",
@@ -61,10 +132,11 @@
     "kicker": "Liderança",
     "title": "CEO & Fundador",
     "name": "Manuel Jivane Andrade",
-    "role": "CEO | Engenheiro Rural | Especialista em Água, Saneamento e Gestão Ambiental",
-    "education": "Licenciado pela Universidade Eduardo Mondlane (2022).",
+    "role": "CEO | Engenheiro de Desenvolvimento Comunitário Especializado em Água e Saneamento (WASH) | Salvaguarda Ambiental e Social e Analista de HSE pela OSHAcademy (USA). Licenciado pela Universidade Eduardo Mondlane (2022).",
+    "education": "",
     "bio": "Com experiência em projectos de água, saneamento, gestão de resíduos e consultoria ambiental, lidera a BIOCLEAN ENVIRONMENT com foco em rigor técnico, ética e impacto positivo nas comunidades.",
-    "skillsLabel": "Competências-Chave"
+    "skillsLabel": "Competências-Chave",
+    "skills": ["ISO 14001", "ISO 45001", "HIRA", "Gestão de Resíduos", "Sustentabilidade"]
   },
   "homeProjects": {
     "kicker": "Galeria de Projectos",
@@ -74,7 +146,66 @@
     "filterCleaning": "Limpeza",
     "filterSocial": "Social",
     "filterHst": "HST",
-    "cta": "Ver Todos os Projectos"
+    "cta": "Ver Todos os Projectos",
+    "pendingCta": "A abrir..."
+  },
+  "projectGallery": {
+    "items": [
+      {
+        "id": "mine-audit",
+        "category": "ambiental",
+        "image": "/Galeria/Nampula.jpeg",
+        "name": "Auditoria Ambiental — Empresa Mineira, Nampula",
+        "location": "Nampula",
+        "type": "Ambiental",
+        "description": "Avaliação abrangente de conformidade ambiental e optimização de processos para reduzir impactos."
+      },
+      {
+        "id": "pemba-hst",
+        "category": "hst",
+        "image": "/Galeria/HST.jpeg",
+        "name": "Plano de Segurança Ocupacional — Construtora, Pemba",
+        "location": "Pemba",
+        "type": "HST",
+        "description": "Desenvolvimento de plano de segurança e formação em HST para equipas de obra."
+      },
+      {
+        "id": "nacala-clean",
+        "category": "limpeza",
+        "image": "/Galeria/Nacala.jpeg",
+        "name": "Limpeza Industrial — Armazém Logístico, Nacala",
+        "location": "Nacala",
+        "type": "Limpeza",
+        "description": "Serviço especializado de limpeza profunda e manutenção de armazéns logísticos."
+      },
+      {
+        "id": "zambezia-eia",
+        "category": "ambiental",
+        "image": "/Galeria/Zambezia.jpeg",
+        "name": "EIA — Projecto Agroindustrial, Zambézia",
+        "location": "Zambézia",
+        "type": "Ambiental",
+        "description": "Estudo de impacto ambiental para novo empreendimento agroindustrial, com foco em uso sustentável de recursos."
+      },
+      {
+        "id": "hospital-waste",
+        "category": "ambiental",
+        "image": "/Galeria/Nampula1.jpeg",
+        "name": "Gestão de Resíduos — Hospital Provincial, Nampula",
+        "location": "Nampula",
+        "type": "Ambiental",
+        "description": "Implementação de plano integrado de gestão de resíduos hospitalares."
+      },
+      {
+        "id": "resettlement",
+        "category": "social",
+        "image": "/Galeria/Social.jpeg",
+        "name": "Reassentamento Comunitário — Projecto de Infraestrutura",
+        "location": "Moçambique",
+        "type": "Social",
+        "description": "Apoio técnico em processos de reassentamento e envolvimento comunitário."
+      }
+    ]
   },
   "homeTestimonials": {
     "kicker": "Testemunhos",
@@ -100,7 +231,7 @@
       "q1": "Quanto tempo demora para responderem ao meu pedido?",
       "a1": "Normalmente respondemos em até 1 dia útil, dependendo da complexidade do projecto.",
       "q2": "Atendem apenas empresas em Nampula?",
-      "a2": "Não. Atuamos em diferentes províncias de Moçambique, de acordo com a necessidade do cliente.",
+      "a2": "Não. Temos sede em Nampula e presença em Nampula e Maputo, e atuamos noutras províncias de Moçambique conforme a necessidade do cliente.",
       "q3": "As propostas têm custo?",
       "a3": "A análise inicial do pedido e a elaboração de uma proposta base não têm custos associados.",
       "q4": "Como posso solicitar consultoria técnica?",
@@ -112,11 +243,77 @@
     "title": "Como Podemos Ajudar?",
     "description": "Entre em contacto por telefone, email ou através do formulário dedicado na página de contacto."
   },
+  "footer": {
+    "tagline": "Empresa de consultoria ambiental, social e saúde e segurança ocupacional em Moçambique.",
+    "founded": "Fundada em 2024 · Nampula e Maputo, Moçambique",
+    "contacts": "Contactos",
+    "quickLinks": "Links Rápidos",
+    "home": "Início",
+    "about": "Sobre Nós",
+    "services": "Serviços",
+    "projects": "Projectos",
+    "contact": "Contacto",
+    "social": "Redes Sociais",
+    "copyright": "© 2026 BIOCLEAN ENVIRONMENT SU, LDA. Todos os direitos reservados.",
+    "address": "Bairro Muhala Expansão, Nampula · presença em Nampula e Maputo, Moçambique"
+  },
   "pages": {
     "sobre": {
       "kicker": "Sobre Nós",
       "title": "Compromisso com a Excelência Ambiental em Moçambique",
-      "intro": "A BIOCLEAN ENVIRONMENT SU, LDA nasceu em 2024, na cidade de Nampula, com o propósito de apoiar empresas e instituições públicas a integrar a sustentabilidade ambiental e social no centro das suas decisões."
+      "intro": "A BIOCLEAN ENVIRONMENT SU, LDA nasceu em 2024, com sede em Nampula e presença em Nampula e Maputo, com o propósito de apoiar empresas e instituições públicas a integrar a sustentabilidade ambiental e social no centro das suas decisões enquanto empresa de consultoria ambiental, social e saúde e segurança ocupacional.",
+      "values": {
+        "integrityTitle": "Integridade",
+        "integrityLine1": "Atuação com ética e transparência.",
+        "integrityLine2": "Responsabilidade em todas as fases dos projectos.",
+        "innovationTitle": "Inovação",
+        "innovationLine1": "Aplicação de metodologias modernas.",
+        "innovationLine2": "Parcerias e ferramentas para melhor desempenho ambiental.",
+        "impactTitle": "Impacto",
+        "impactLine1": "Foco no impacto real nas pessoas e no ambiente.",
+        "impactLine2": "Contribuição para negócios mais sustentáveis em Moçambique."
+      },
+      "history": {
+        "kicker": "Nossa História",
+        "body": "Desde 2024, a BIOCLEAN ENVIRONMENT SU, LDA tem apoiado empresas e instituições públicas em Moçambique a integrar a sustentabilidade ambiental e social no centro das suas decisões, enquanto empresa de consultoria ambiental, social e saúde e segurança ocupacional."
+      },
+      "timeline": {
+        "step1Label": "Fundação · 2024",
+        "step1Item1": "Nascemos em Nampula com presença em Nampula e Maputo para apoiar projectos mais responsáveis.",
+        "step1Item2": "Alinhamento com a legislação ambiental e social.",
+        "step1Item3": "Foco em criar valor para empresas e comunidades.",
+        "step2Label": "Equipa Multidisciplinar",
+        "step2Item1": "Engenharia, gestão ambiental, HST e gestão social.",
+        "step2Item2": "Conhecimento técnico aliado à realidade moçambicana.",
+        "step2Item3": "Capacidade de actuação em diferentes províncias.",
+        "step3Label": "Resultados e Impacto",
+        "step3Item1": "Acompanhamento próximo em todas as fases do projecto.",
+        "step3Item2": "Indicadores claros de conformidade e desempenho.",
+        "step3Item3": "Impacto positivo nas comunidades e no ambiente."
+      },
+      "ceo": {
+        "kicker": "Liderança",
+        "name": "MANUEL JIVANE ANDRADE",
+        "roleShort": "CEO da BIOCLEAN ENVIRONMENT · Engenheiro de Desenvolvimento Comunitário (WASH) · Salvaguarda Ambiental e Social · Analista de HSE (OSHAcademy USA) · Licenciado pela Universidade Eduardo Mondlane (2022).",
+        "academicTitle": "Formação Académica",
+        "academicBody": "Licenciado em Engenharia Rural, com especialização em Água e Saneamento pela Universidade Eduardo Mondlane (2022).",
+        "skillsTitle": "Competências Técnicas",
+        "skill1": "Gestão de Resíduos e Desenvolvimento Rural.",
+        "skill2": "Tratamento de Águas Residuais e de Consumo.",
+        "skill3": "Sistemas de Gestão Ambiental (ISO 14001:2015).",
+        "skill4": "Segurança e Saúde Ocupacional (ISO 45001:2018).",
+        "skill5": "Ecologia e Sustentabilidade.",
+        "certTitle": "Certificações e Ferramentas",
+        "cert1": "Auditorias Internas ISO 14001 & ISO 45001.",
+        "cert2": "Análise de Incidentes e Avaliação de Riscos (HIRA).",
+        "cert3": "Ciclo PDCA (Plan-Do-Check-Act).",
+        "cert4": "Auditoria Ambiental e Identificação de Impactos.",
+        "cert5": "Gestão de Não Conformidades e Ações Corretivas.",
+        "expTitle": "Experiência Profissional",
+        "expCeo": "CEO – BIOCLEAN ENVIRONMENT (2024 – Presente): lidera a estratégia de crescimento e inovação, assegurando soluções ambientais, de saúde, segurança e bem-estar social.",
+        "expZhongmei": "Safety Officer – Zhongmei Engineering Group (Pty) Ltd: experiência em HST, avaliação de riscos, toolbox talks e relatórios de progresso.",
+        "expNampula": "Oficial de Saúde e Segurança no Trabalho – Projecto de Reabilitação Estrada Nampula–Ribaué (R13, 131 km): apoio na preparação do C-ESMP (incluindo planos GBV e GRM); gestão de valas de empréstimo; avaliações e monitorização ambientais com mitigação de erosão e poluição hídrica; formação de equipas; gestão de resíduos e relatórios; mediação com comunidades para reduzir impactos sociais e ambientais."
+      }
     },
     "servicos": {
       "kicker": "Serviços",
@@ -144,6 +341,10 @@
         "message": "Mensagem",
         "messagePlaceholder": "Descreva o seu pedido ou projecto...",
         "submit": "Enviar Mensagem",
+        "submitting": "A enviar...",
+        "required": "Obrigatório.",
+        "successMessage": "Mensagem enviada com sucesso. Entraremos em contacto em breve.",
+        "errorSummary": "Por favor, preencha os campos obrigatórios destacados.",
         "services": {
           "consultoria": "Consultoria Ambiental",
           "monitoramento": "Monitoramento Ambiental",
@@ -155,9 +356,28 @@
       },
       "contactBox": {
         "title": "Contactos Directos",
-        "mapPlaceholder": "Localização · Bairro Muhala Expansão, Nampula"
+        "mapPlaceholder": "Localização · Bairro Muhala Expansão, Nampula (presença em Nampula e Maputo)"
+      },
+      "responseTime": "Respondemos normalmente em até",
+      "responseTimeHighlight": "1 dia útil",
+      "responseTimeSuffix": ".",
+      "addressLine1": "Bairro Muhala Expansão,",
+      "addressLine2": "Nampula · presença em Nampula e Maputo, Moçambique",
+      "mapPinLabel": "Bairro Muhala Expansão, Nampula",
+      "mapHint": "Clique para ver no Google Maps",
+      "mapLink": "Ver no Google Maps →",
+      "socialLabel": "Redes Sociais",
+      "cards": {
+        "faqKicker": "Perguntas Frequentes",
+        "faqTitle": "Quanto tempo demora para responderem ao meu pedido?",
+        "faqBody": "Normalmente respondemos em até 1 dia útil, dependendo da complexidade do projecto.",
+        "scopeKicker": "Serviços & Abrangência",
+        "scopeTitle": "Atendem apenas empresas em Nampula?",
+        "scopeBody": "Não. Temos sede em Nampula e presença em Nampula e Maputo, e atuamos noutras províncias de Moçambique conforme a necessidade do cliente.",
+        "proposalKicker": "Propostas & Orçamentos",
+        "proposalTitle": "As propostas têm custo?",
+        "proposalBody": "A análise inicial do pedido e a elaboração de uma proposta base não têm custos associados."
       }
     }
   }
 }
-

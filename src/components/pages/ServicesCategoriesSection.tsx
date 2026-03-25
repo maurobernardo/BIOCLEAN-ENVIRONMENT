@@ -420,7 +420,7 @@ export function ServicesCategoriesSection() {
           <h2 className="font-display text-2xl font-extrabold text-primary sm:text-3xl">
             {copy.title}
           </h2>
-          <p className="mx-auto max-w-2xl text-sm text-warm-gray md:mx-0">
+          <p className="mx-auto max-w-2xl text-sm text-warm-gray leading-relaxed md:mx-0 md:text-base">
             {copy.intro}
           </p>
         </div>
@@ -462,10 +462,10 @@ export function ServicesCategoriesSection() {
                     </div>
 
                     <div className="flex flex-1 flex-col gap-3 px-4 pb-4 pt-3">
-                      <h4 className="text-sm font-semibold text-primary">
+                      <h4 className="text-base font-semibold text-primary">
                         {service.title}
                       </h4>
-                      <ul className="space-y-1.5 text-sm text-warm-gray">
+                      <ul className="space-y-1.5 text-sm text-warm-gray leading-relaxed md:text-base">
                         {service.bullets.map((item) => (
                           <li key={item} className="flex items-start gap-2">
                             <span className="mt-[3px] h-2 w-2 shrink-0 rounded-full bg-primary" />

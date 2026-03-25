@@ -22,7 +22,7 @@ export function FaqSection() {
       <div className="section-container section-padding relative z-10">
         <div className="mx-auto max-w-3xl">
           <div className="flex flex-wrap items-center gap-3">
-            <div className="inline-flex items-center gap-2 rounded-full border border-primary-soft/60 bg-primary-soft/25 px-3 py-1 text-[11px] font-mono font-semibold uppercase tracking-[0.18em] text-primary">
+            <div className="inline-flex items-center gap-2 rounded-full border border-primary-soft/60 bg-primary-soft/25 px-3 py-1 text-xs font-mono font-semibold uppercase tracking-[0.18em] text-primary">
               {t("kicker")}
             </div>
             <h2 className="font-display text-2xl font-extrabold text-primary sm:text-3xl md:text-[3rem]">
@@ -47,7 +47,7 @@ export function FaqSection() {
                     onClick={() => setOpenIndex(isOpen ? null : idx)}
                     className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left sm:px-7 sm:py-6"
                   >
-                    <span className="text-base font-semibold text-primary sm:text-lg">
+                    <span className="text-sm font-semibold text-primary sm:text-base">
                       {t(`items.${qKey}`)}
                     </span>
                     <motion.span

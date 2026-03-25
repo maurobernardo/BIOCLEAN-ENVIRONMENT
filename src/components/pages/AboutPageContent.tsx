@@ -7,6 +7,10 @@ import { Sparkles, Leaf, ShieldCheck } from "lucide-react";
 
 export function AboutPageContent() {
   const t = useTranslations("pages.sobre");
+  const tv = useTranslations("pages.sobre.values");
+  const th = useTranslations("pages.sobre.history");
+  const tl = useTranslations("pages.sobre.timeline");
+  const tc = useTranslations("pages.sobre.ceo");
 
   return (
     <section className="relative overflow-hidden bg-muted pb-20 md:pb-28">
@@ -23,14 +27,14 @@ export function AboutPageContent() {
           transition={{ duration: 0.7 }}
           className="max-w-4xl space-y-4"
         >
-          <div className="inline-flex w-fit items-center gap-2 rounded-full border border-primary-soft/60 bg-primary-soft/20 px-4 py-1 text-[11px] font-mono uppercase tracking-[0.18em] text-primary">
+          <div className="inline-flex w-fit items-center gap-2 rounded-full border border-primary-soft/60 bg-primary-soft/20 px-4 py-1 text-xs font-mono uppercase tracking-[0.18em] text-primary">
             <span className="h-1.5 w-1.5 rounded-full bg-primary" />
             <span>{t("kicker")}</span>
           </div>
           <h1 className="font-display text-3xl font-extrabold leading-tight text-primary sm:text-4xl md:text-[2.9rem]">
             {t("title")}
           </h1>
-          <p className="text-sm md:text-[15px] text-warm-gray leading-relaxed">
+          <p className="text-sm text-warm-gray leading-relaxed md:text-base">
             {t("intro")}
           </p>
         </motion.div>
@@ -48,10 +52,10 @@ export function AboutPageContent() {
               <Sparkles className="h-5 w-5" />
             </div>
             <div className="relative space-y-1">
-              <p className="text-base font-semibold text-primary">Integridade</p>
-              <ul className="space-y-1 text-xs text-warm-gray">
-                <li>Atuação com ética e transparência.</li>
-                <li>Responsabilidade em todas as fases dos projectos.</li>
+              <p className="text-sm font-semibold text-primary">{tv("integrityTitle")}</p>
+              <ul className="space-y-1 text-sm text-warm-gray leading-relaxed md:text-base">
+                <li>{tv("integrityLine1")}</li>
+                <li>{tv("integrityLine2")}</li>
               </ul>
             </div>
           </div>
@@ -61,10 +65,10 @@ export function AboutPageContent() {
               <Leaf className="h-5 w-5" />
             </div>
             <div className="relative space-y-1">
-              <p className="text-base font-semibold text-primary">Inovação</p>
-              <ul className="space-y-1 text-xs text-warm-gray">
-                <li>Aplicação de metodologias modernas.</li>
-                <li>Parcerias e ferramentas para melhor desempenho ambiental.</li>
+              <p className="text-sm font-semibold text-primary">{tv("innovationTitle")}</p>
+              <ul className="space-y-1 text-sm text-warm-gray leading-relaxed md:text-base">
+                <li>{tv("innovationLine1")}</li>
+                <li>{tv("innovationLine2")}</li>
               </ul>
             </div>
           </div>
@@ -74,10 +78,10 @@ export function AboutPageContent() {
               <ShieldCheck className="h-5 w-5" />
             </div>
             <div className="relative space-y-1">
-              <p className="text-base font-semibold text-primary">Impacto</p>
-              <ul className="space-y-1 text-xs text-warm-gray">
-                <li>Foco no impacto real nas pessoas e no ambiente.</li>
-                <li>Contribuição para negócios mais sustentáveis em Moçambique.</li>
+              <p className="text-sm font-semibold text-primary">{tv("impactTitle")}</p>
+              <ul className="space-y-1 text-sm text-warm-gray leading-relaxed md:text-base">
+                <li>{tv("impactLine1")}</li>
+                <li>{tv("impactLine2")}</li>
               </ul>
             </div>
           </div>
@@ -91,79 +95,77 @@ export function AboutPageContent() {
           className="space-y-6"
         >
           <div className="space-y-4">
-            <div className="inline-flex w-fit items-center gap-2 rounded-full border border-primary-soft/60 bg-primary-soft/20 px-4 py-1 text-[11px] font-mono uppercase tracking-[0.18em] text-primary">
+            <div className="inline-flex w-fit items-center gap-2 rounded-full border border-primary-soft/60 bg-primary-soft/20 px-4 py-1 text-xs font-mono uppercase tracking-[0.18em] text-primary">
               <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-              <span>Nossa História</span>
+              <span>{th("kicker")}</span>
             </div>
-            <p className="text-sm text-warm-gray leading-relaxed">
-              Desde 2024, a BIOCLEAN ENVIRONMENT SU, LDA tem apoiado empresas
-              e instituições públicas em Moçambique a integrar a sustentabilidade
-              ambiental e social no centro das suas decisões.
+            <p className="text-sm text-warm-gray leading-relaxed md:text-base">
+              {th("body")}
             </p>
             <div className="grid gap-5 md:grid-cols-3">
               <div className="relative rounded-3xl border-2 border-primary bg-white/95 p-6 shadow-sm">
-                <div className="absolute -top-3 left-5 flex h-7 w-7 items-center justify-center rounded-full border border-primary-soft/70 bg-muted text-[11px] font-mono text-primary">
+                <div className="absolute -top-3 left-5 flex h-7 w-7 items-center justify-center rounded-full border border-primary-soft/70 bg-muted text-xs font-mono text-primary">
                   1
                 </div>
-                <p className="mt-4 text-[12px] font-mono uppercase tracking-[0.18em] text-primary">
-                  Fundação · 2024
+                <p className="mt-4 text-sm font-mono uppercase tracking-[0.18em] text-primary">
+                  {tl("step1Label")}
                 </p>
-                <ul className="mt-3 space-y-1.5 text-[13px] text-warm-gray">
+                <ul className="mt-3 space-y-1.5 text-sm text-warm-gray leading-relaxed md:text-base">
                   <li className="flex items-start gap-2">
                     <span className="mt-1 h-2 w-2 rounded-full bg-primary" />
-                    <span>Nascemos em Nampula para apoiar projectos mais responsáveis.</span>
+                    <span>{tl("step1Item1")}</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="mt-1 h-2 w-2 rounded-full bg-primary" />
-                    <span>Alinhamento com a legislação ambiental e social.</span>
+                    <span>{tl("step1Item2")}</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="mt-1 h-2 w-2 rounded-full bg-primary" />
-                    <span>Foco em criar valor para empresas e comunidades.</span>
+                    <span>{tl("step1Item3")}</span>
                   </li>
                 </ul>
               </div>
               <div className="relative rounded-3xl border-2 border-primary bg-white/95 p-6 shadow-sm">
-                <div className="absolute -top-3 left-5 flex h-7 w-7 items-center justify-center rounded-full border border-primary-soft/70 bg-muted text-[11px] font-mono text-primary">
+                <div className="absolute -top-3 left-5 flex h-7 w-7 items-center justify-center rounded-full border border-primary-soft/70 bg-muted text-xs font-mono text-primary">
                   2
                 </div>
-                <p className="mt-4 text-[12px] font-mono uppercase tracking-[0.18em] text-primary">
-                  Equipa Multidisciplinar
+                <p className="mt-4 text-sm font-mono uppercase tracking-[0.18em] text-primary">
+                  {tl("step2Label")}
                 </p>
-                <ul className="mt-3 space-y-1.5 text-[13px] text-warm-gray">
+                <ul className="mt-3 space-y-1.5 text-sm text-warm-gray leading-relaxed md:text-base">
                   <li className="flex items-start gap-2">
                     <span className="mt-1 h-2 w-2 rounded-full bg-primary" />
-                    <span>Engenharia, gestão ambiental, HST e gestão social.</span>
+                    <span>{tl("step2Item1")}</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="mt-1 h-2 w-2 rounded-full bg-primary" />
-                    <span>Conhecimento técnico aliado à realidade moçambicana.</span>
+                    <span>{tl("step2Item2")}</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="mt-1 h-2 w-2 rounded-full bg-primary" />
-                    <span>Capacidade de actuação em diferentes províncias.</span>
+                    <span>{tl("step2Item3")}</span>
                   </li>
                 </ul>
               </div>
               <div className="relative rounded-3xl border-2 border-primary bg-white/95 p-6 shadow-sm">
-                <div className="absolute -top-3 left-5 flex h-7 w-7 items-center justify-center rounded-full border border-primary-soft/70 bg-muted text-[11px] font-mono text-primary">
+                <div className="absolute -top-3 left-5 flex h-7 w-7 items-center justify-center rounded-full border border-primary-soft/70 bg-muted text-xs font-mono text-primary">
                   3
                 </div>
-                <p className="mt-4 text-[12px] font-mono uppercase tracking-[0.18em] text-primary">
-                  Resultados e Impacto
+                <p className="mt-4 text-sm font-mono uppercase tracking-[0.18em] text-primary">
+                  {tl("step3Label")}
                 </p>
-                <ul className="mt-3 space-y-1.5 text-[13px] text-warm-gray">
+                <ul className="mt-3 space-y-1.5 text-sm text-warm-gray leading-relaxed md:text-base">
                   <li className="flex items-start gap-2">
                     <span className="mt-1 h-2 w-2 rounded-full bg-primary" />
-                    <span>Acompanhamento próximo em todas as fases do projecto.</span>
+                    <span>{tl("step3Item1")}</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="mt-1 h-2 w-2 rounded-full bg-primary" />
-                    <span>Indicadores claros de conformidade e desempenho.</span>
+                    <span>{tl("step3Item2")}</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="mt-1 h-2 w-2 rounded-full bg-primary" />
-                    <span>Impacto positivo nas comunidades e no ambiente.</span>
+                    <span>{tl("step3Item3")}</span>
                   </li>
                 </ul>
               </div>
@@ -188,113 +190,91 @@ export function AboutPageContent() {
               />
             </div>
               <div className="space-y-3">
-              <p className="text-[11px] font-mono uppercase tracking-[0.18em] text-primary">
-                Liderança
+              <p className="text-xs font-mono uppercase tracking-[0.18em] text-primary">
+                {tc("kicker")}
               </p>
-              <p className="text-sm font-semibold text-primary">
-                MANUEL JIVANE ANDRADE
+              <p className="text-base font-semibold text-primary">
+                {tc("name")}
               </p>
-              <p className="text-xs text-warm-gray leading-relaxed">
-                CEO da BIOCLEAN ENVIRONMENT · Engenheiro Rural · Especialista
-                em Água, Saneamento e Gestão Ambiental.
+              <p className="text-sm text-warm-gray leading-relaxed md:text-base">
+                {tc("roleShort")}
               </p>
 
-              <div className="grid gap-4 text-[13px] text-warm-gray md:grid-cols-2">
+              <div className="grid gap-4 text-sm text-warm-gray leading-relaxed md:grid-cols-2 md:text-base">
                 <div className="space-y-1">
                   <p className="font-semibold text-primary">
-                    Formação Académica
+                    {tc("academicTitle")}
                   </p>
                   <p>
-                    Licenciado em Engenharia Rural, com especialização em Água e
-                    Saneamento pela Universidade Eduardo Mondlane (2022).
+                    {tc("academicBody")}
                   </p>
                   <p className="mt-2 font-semibold text-primary">
-                    Competências Técnicas
+                    {tc("skillsTitle")}
                   </p>
                   <ul className="mt-1 space-y-1.5">
                     <li className="flex items-start gap-2">
                       <span className="mt-1 h-2 w-2 rounded-full bg-primary" />
-                      <span>Gestão de Resíduos e Desenvolvimento Rural.</span>
+                      <span>{tc("skill1")}</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="mt-1 h-2 w-2 rounded-full bg-primary" />
-                      <span>Tratamento de Águas Residuais e de Consumo.</span>
+                      <span>{tc("skill2")}</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="mt-1 h-2 w-2 rounded-full bg-primary" />
-                      <span>Sistemas de Gestão Ambiental (ISO 14001:2015).</span>
+                      <span>{tc("skill3")}</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="mt-1 h-2 w-2 rounded-full bg-primary" />
-                      <span>Segurança e Saúde Ocupacional (ISO 45001:2018).</span>
+                      <span>{tc("skill4")}</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="mt-1 h-2 w-2 rounded-full bg-primary" />
-                      <span>Ecologia e Sustentabilidade.</span>
+                      <span>{tc("skill5")}</span>
                     </li>
                   </ul>
                 </div>
                 <div className="space-y-1">
                   <p className="font-semibold text-primary">
-                    Certificações e Ferramentas
+                    {tc("certTitle")}
                   </p>
                   <ul className="mt-1 space-y-1.5">
                     <li className="flex items-start gap-2">
                       <span className="mt-1 h-2 w-2 rounded-full bg-primary" />
-                      <span>Auditorias Internas ISO 14001 &amp; ISO 45001.</span>
+                      <span>{tc("cert1")}</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="mt-1 h-2 w-2 rounded-full bg-primary" />
-                      <span>Análise de Incidentes e Avaliação de Riscos (HIRA).</span>
+                      <span>{tc("cert2")}</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="mt-1 h-2 w-2 rounded-full bg-primary" />
-                      <span>Ciclo PDCA (Plan-Do-Check-Act).</span>
+                      <span>{tc("cert3")}</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="mt-1 h-2 w-2 rounded-full bg-primary" />
-                      <span>Auditoria Ambiental e Identificação de Impactos.</span>
+                      <span>{tc("cert4")}</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="mt-1 h-2 w-2 rounded-full bg-primary" />
-                      <span>Gestão de Não Conformidades e Ações Corretivas.</span>
+                      <span>{tc("cert5")}</span>
                     </li>
                   </ul>
                   <p className="mt-3 font-semibold text-primary">
-                    Experiência Profissional
+                    {tc("expTitle")}
                   </p>
                   <ul className="mt-1 space-y-1.5">
                     <li className="flex items-start gap-2">
                       <span className="mt-1 h-2 w-2 rounded-full bg-primary" />
-                      <span>
-                        <span className="font-semibold">
-                          CEO – BIOCLEAN ENVIRONMENT (2024 – Presente):
-                        </span>{" "}
-                        lidera a estratégia de crescimento e inovação, assegurando
-                        soluções ambientais, de saúde, segurança e bem-estar
-                        social.
-                      </span>
+                      <span>{tc("expCeo")}</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="mt-1 h-2 w-2 rounded-full bg-primary" />
-                      <span>
-                        <span className="font-semibold">
-                          Safety Officer – Zhongmei Engineering Group (Pty) Ltd:
-                        </span>{" "}
-                        experiência em HST, avaliação de riscos, toolbox talks e
-                        relatórios de progresso.
-                      </span>
+                      <span>{tc("expZhongmei")}</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="mt-1 h-2 w-2 rounded-full bg-primary" />
-                      <span>
-                        <span className="font-semibold">
-                          Oficial de Saúde e Segurança no Trabalho – BMC
-                          Consultores LDA:
-                        </span>{" "}
-                        implementação de medidas preventivas, auditorias de
-                        conformidade e relatórios técnicos.
-                      </span>
+                      <span>{tc("expNampula")}</span>
                     </li>
                   </ul>
                 </div>
@@ -306,4 +286,3 @@ export function AboutPageContent() {
     </section>
   );
 }
-

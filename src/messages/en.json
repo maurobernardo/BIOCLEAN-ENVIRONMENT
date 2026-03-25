@@ -8,17 +8,26 @@
     "ctaProposal": "Contact Us"
   },
   "hero": {
-    "badge": "BIOCLEAN ENVIRONMENT · NAMPULA",
+    "badge": "BIOCLEAN ENVIRONMENT · NAMPULA & MAPUTO",
     "headline": "Protecting Today, Shaping Tomorrow.",
-    "tagline": "Professional Environmental and Social Consulting Solutions",
+    "tagline": "Environmental, Social, and Occupational Health & Safety Consulting",
     "ctaServices": "Explore Our Services",
     "ctaContact": "Talk to Us",
-    "foundedBadge": "Founded in 2024 · Nampula, Mozambique",
-    "sideTitle": "Environmental & Social Consulting",
+    "foundedBadge": "Founded in 2024 · Nampula & Maputo, Mozambique",
+    "sideTitle": "Environmental, Social & Occupational Health & Safety Consulting",
     "sideBody": "End-to-end advisory in environmental impact assessments, waste management, occupational health and safety, and sustainable social projects in Mozambique.",
     "cardTitle": "Sustainable Solutions for Your Project",
     "cardBody": "We support you throughout the entire project lifecycle, ensuring compliance, reduced impacts and long-term environmental value.",
-    "trustLabel": "Organizations in Mozambique trust BIOCLEAN"
+    "trustLabel": "Organizations in Mozambique trust BIOCLEAN",
+    "followLabel": "Follow",
+    "pills": [
+      "Environmental & Social Consulting",
+      "Occupational Health & Safety",
+      "Industrial Cleaning",
+      "Waste Management",
+      "Social Projects"
+    ],
+    "imageAlt": "Environmental landscape"
   },
   "stats": {
     "services": "Specialized Services",
@@ -29,7 +38,7 @@
   "homeAbout": {
     "kicker": "About Us",
     "title": "Who We Are",
-    "body1": "BIOCLEAN ENVIRONMENT SU, LDA is an environmental and social consulting company based in Nampula, Mozambique, founded in 2024. We work across different sectors, helping public and private organizations meet legal requirements, mitigate impacts and unlock sustainable development opportunities.",
+    "body1": "BIOCLEAN ENVIRONMENT SU, LDA is a company providing environmental, social, and occupational health & safety consulting, headquartered in Nampula with a presence in Nampula and Maputo, Mozambique, founded in 2024. We work across different sectors, helping public and private organizations meet legal requirements, mitigate impacts and unlock sustainable development opportunities.",
     "body2": "With a multidisciplinary team and a results-oriented mindset, we combine technical rigor, local knowledge and innovative solutions to create environmental, social and economic value for our clients.",
     "pillars": {
       "innovationTitle": "Innovation",
@@ -43,7 +52,69 @@
   "homeServices": {
     "kicker": "Services",
     "title": "Our Services",
-    "intro": "A comprehensive portfolio of environmental, social and occupational health & safety services designed to support companies throughout the entire project lifecycle."
+    "intro": "A comprehensive portfolio of environmental, social and occupational health & safety services designed to support companies throughout the entire project lifecycle.",
+    "items": {
+      "consultoria": {
+        "title": "Environmental Consulting",
+        "description": "Environmental Impact Studies (EIA), audits, management plans and environmental performance monitoring.",
+        "bullets": [
+          "Environmental Impact Studies (EIA)",
+          "Environmental Management Plans",
+          "Environmental Audits",
+          "Environmental Licensing"
+        ]
+      },
+      "monitoramento": {
+        "title": "Environmental Monitoring",
+        "description": "Periodic monitoring of physical, chemical and biological indicators to control impacts.",
+        "bullets": [
+          "Water quality monitoring",
+          "Air quality monitoring",
+          "Noise and vibrations",
+          "Compliance reports"
+        ]
+      },
+      "hst": {
+        "title": "Occupational Health & Safety",
+        "description": "Risk assessment, HIRA, safety plans and team training.",
+        "bullets": [
+          "Risk assessment (HIRA)",
+          "Occupational safety plans",
+          "OHS training",
+          "Emergency procedures"
+        ]
+      },
+      "limpeza": {
+        "title": "General & Industrial Cleaning",
+        "description": "Professional cleaning for offices, industrial facilities and critical infrastructure.",
+        "bullets": [
+          "Office cleaning",
+          "Heavy industrial cleaning",
+          "Post-construction cleaning",
+          "Maintenance plans"
+        ]
+      },
+      "residuos": {
+        "title": "Waste Management",
+        "description": "Integrated solutions for municipal, industrial and hospital solid waste.",
+        "bullets": [
+          "Waste management plans",
+          "Segregation and storage",
+          "Transport and final disposal",
+          "Hospital waste"
+        ]
+      },
+      "social": {
+        "title": "Social Implementation & Management",
+        "description": "Social programs, resettlement, public consultation and community engagement.",
+        "bullets": [
+          "Social management plans",
+          "Resettlement and compensation",
+          "Public consultation and participation",
+          "Social impact monitoring"
+        ]
+      }
+    }
   },
   "homeWhyUs": {
     "kicker": "Why Choose Us",
@@ -61,10 +132,11 @@
     "kicker": "Leadership",
     "title": "CEO & Founder",
     "name": "Manuel Jivane Andrade",
-    "role": "CEO | Rural Engineer | Specialist in Water, Sanitation and Environmental Management",
-    "education": "Graduated from Universidade Eduardo Mondlane (2022).",
+    "role": "CEO | Community Development Engineer specializing in Water & Sanitation (WASH) | Environmental & Social Safeguards and HSE Analyst (OSHAcademy USA). Graduated from Universidade Eduardo Mondlane (2022).",
+    "education": "",
     "bio": "With experience in water, sanitation, waste management and environmental consulting projects, he leads BIOCLEAN ENVIRONMENT with a strong focus on technical rigor, ethics and positive community impact.",
-    "skillsLabel": "Key Skills"
+    "skillsLabel": "Key Skills",
+    "skills": ["ISO 14001", "ISO 45001", "HIRA", "Waste Management", "Sustainability"]
   },
   "homeProjects": {
     "kicker": "Project Gallery",
@@ -74,7 +146,66 @@
     "filterCleaning": "Cleaning",
     "filterSocial": "Social",
     "filterHst": "OHS",
-    "cta": "View All Projects"
+    "cta": "View All Projects",
+    "pendingCta": "Opening..."
+  },
+  "projectGallery": {
+    "items": [
+      {
+        "id": "mine-audit",
+        "category": "ambiental",
+        "image": "/Galeria/Nampula.jpeg",
+        "name": "Environmental Audit — Mining Company, Nampula",
+        "location": "Nampula",
+        "type": "Environmental",
+        "description": "Comprehensive assessment of environmental compliance and process optimization to reduce impacts."
+      },
+      {
+        "id": "pemba-hst",
+        "category": "hst",
+        "image": "/Galeria/HST.jpeg",
+        "name": "Occupational Safety Plan — Construction Company, Pemba",
+        "location": "Pemba",
+        "type": "OHS",
+        "description": "Development of a safety plan and OHS training for construction teams."
+      },
+      {
+        "id": "nacala-clean",
+        "category": "limpeza",
+        "image": "/Galeria/Nacala.jpeg",
+        "name": "Industrial Cleaning — Logistics Warehouse, Nacala",
+        "location": "Nacala",
+        "type": "Cleaning",
+        "description": "Specialized deep-cleaning and maintenance service for logistics warehouses."
+      },
+      {
+        "id": "zambezia-eia",
+        "category": "ambiental",
+        "image": "/Galeria/Zambezia.jpeg",
+        "name": "EIA — Agro-Industrial Project, Zambézia",
+        "location": "Zambézia",
+        "type": "Environmental",
+        "description": "Environmental impact assessment for a new agro-industrial venture focused on sustainable resource use."
+      },
+      {
+        "id": "hospital-waste",
+        "category": "ambiental",
+        "image": "/Galeria/Nampula1.jpeg",
+        "name": "Waste Management — Provincial Hospital, Nampula",
+        "location": "Nampula",
+        "type": "Environmental",
+        "description": "Implementation of an integrated management plan for hospital waste."
+      },
+      {
+        "id": "resettlement",
+        "category": "social",
+        "image": "/Galeria/Social.jpeg",
+        "name": "Community Resettlement — Infrastructure Project",
+        "location": "Mozambique",
+        "type": "Social",
+        "description": "Technical support for resettlement processes and community engagement."
+      }
+    ]
   },
   "homeTestimonials": {
     "kicker": "Testimonials",
@@ -100,7 +231,7 @@
       "q1": "How long does it take to respond to my request?",
       "a1": "We typically respond within 1 business day, depending on project complexity.",
       "q2": "Do you only serve companies in Nampula?",
-      "a2": "No. We work across different provinces in Mozambique, according to client needs.",
+      "a2": "No. We are headquartered in Nampula with a presence in Nampula and Maputo, and we work across Mozambique according to client needs.",
       "q3": "Do proposals have a cost?",
       "a3": "The initial request analysis and preparation of a base proposal have no associated costs.",
       "q4": "How can I request technical consulting?",
@@ -112,11 +243,77 @@
     "title": "How Can We Help?",
     "description": "Reach out by phone, email or through the dedicated form on the contact page."
   },
+  "footer": {
+    "tagline": "Environmental, social, and occupational health & safety consulting company in Mozambique.",
+    "founded": "Founded in 2024 · Nampula & Maputo, Mozambique",
+    "contacts": "Contacts",
+    "quickLinks": "Quick Links",
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact",
+    "social": "Social Media",
+    "copyright": "© 2026 BIOCLEAN ENVIRONMENT SU, LDA. All rights reserved.",
+    "address": "Muhala Expansão, Nampula · presence in Nampula and Maputo, Mozambique"
+  },
   "pages": {
     "sobre": {
       "kicker": "About Us",
       "title": "Committed to Environmental Excellence in Mozambique",
-      "intro": "BIOCLEAN ENVIRONMENT SU, LDA was founded in 2024 in the city of Nampula to support companies and public institutions in placing environmental and social sustainability at the heart of their decisions."
+      "intro": "BIOCLEAN ENVIRONMENT SU, LDA was founded in 2024, headquartered in Nampula with a presence in Nampula and Maputo, to support companies and public institutions in placing environmental and social sustainability at the heart of their decisions as an environmental, social, and occupational health & safety consulting firm.",
+      "values": {
+        "integrityTitle": "Integrity",
+        "integrityLine1": "Ethical and transparent operations.",
+        "integrityLine2": "Responsibility across all project phases.",
+        "innovationTitle": "Innovation",
+        "innovationLine1": "Application of modern methodologies.",
+        "innovationLine2": "Partnerships and tools for stronger environmental performance.",
+        "impactTitle": "Impact",
+        "impactLine1": "Focus on real impact for people and the environment.",
+        "impactLine2": "Contributing to more sustainable business in Mozambique."
+      },
+      "history": {
+        "kicker": "Our Story",
+        "body": "Since 2024, BIOCLEAN ENVIRONMENT SU, LDA has supported companies and public institutions in Mozambique to integrate environmental and social sustainability into their decisions, as an environmental, social, and occupational health & safety consulting company."
+      },
+      "timeline": {
+        "step1Label": "Foundation · 2024",
+        "step1Item1": "We started in Nampula with a presence in Nampula and Maputo to support more responsible projects.",
+        "step1Item2": "Alignment with environmental and social legislation.",
+        "step1Item3": "Focus on creating value for companies and communities.",
+        "step2Label": "Multidisciplinary Team",
+        "step2Item1": "Engineering, environmental management, OHS and social management.",
+        "step2Item2": "Technical knowledge aligned with the Mozambican context.",
+        "step2Item3": "Ability to operate across different provinces.",
+        "step3Label": "Results & Impact",
+        "step3Item1": "Close support throughout all project phases.",
+        "step3Item2": "Clear indicators of compliance and performance.",
+        "step3Item3": "Positive impact on communities and the environment."
+      },
+      "ceo": {
+        "kicker": "Leadership",
+        "name": "MANUEL JIVANE ANDRADE",
+        "roleShort": "CEO of BIOCLEAN ENVIRONMENT · Community Development Engineer (WASH) · Environmental & Social Safeguards · HSE Analyst (OSHAcademy USA) · Graduated from Universidade Eduardo Mondlane (2022).",
+        "academicTitle": "Academic Background",
+        "academicBody": "Bachelor in Rural Engineering, with specialization in Water and Sanitation from Universidade Eduardo Mondlane (2022).",
+        "skillsTitle": "Technical Skills",
+        "skill1": "Waste Management and Rural Development.",
+        "skill2": "Wastewater and potable water treatment.",
+        "skill3": "Environmental Management Systems (ISO 14001:2015).",
+        "skill4": "Occupational Health & Safety (ISO 45001:2018).",
+        "skill5": "Ecology and Sustainability.",
+        "certTitle": "Certifications & Tools",
+        "cert1": "Internal ISO 14001 & ISO 45001 audits.",
+        "cert2": "Incident analysis and risk assessment (HIRA).",
+        "cert3": "PDCA cycle (Plan-Do-Check-Act).",
+        "cert4": "Environmental auditing and impact identification.",
+        "cert5": "Non-conformance management and corrective actions.",
+        "expTitle": "Professional Experience",
+        "expCeo": "CEO – BIOCLEAN ENVIRONMENT (2024 – Present): leads growth and innovation strategy, delivering environmental, health, safety and social wellbeing solutions.",
+        "expZhongmei": "Safety Officer – Zhongmei Engineering Group (Pty) Ltd: OHS experience, risk assessment, toolbox talks and progress reports.",
+        "expNampula": "Occupational Health & Safety Officer – Nampula–Ribaué Road Rehabilitation Project (R13, 131 km): support for C-ESMP preparation (including GBV and GRM action plans); borrow pit management; environmental assessments and compliance monitoring with mitigation of erosion and water pollution; staff training; waste management and reporting; community mediation to reduce social and environmental impacts."
+      }
     },
     "servicos": {
       "kicker": "Services",
@@ -144,6 +341,10 @@
         "message": "Message",
         "messagePlaceholder": "Describe your request or project...",
         "submit": "Send Message",
+        "submitting": "Sending...",
+        "required": "Required.",
+        "successMessage": "Message sent successfully. We will get back to you shortly.",
+        "errorSummary": "Please fill in the required fields highlighted below.",
         "services": {
           "consultoria": "Environmental Consulting",
           "monitoramento": "Environmental Monitoring",
@@ -155,9 +356,28 @@
       },
       "contactBox": {
         "title": "Direct Contacts",
-        "mapPlaceholder": "Location · Muhala Expansão, Nampula"
+        "mapPlaceholder": "Location · Muhala Expansão, Nampula (presence in Nampula and Maputo)"
+      },
+      "responseTime": "We typically respond within",
+      "responseTimeHighlight": "1 business day",
+      "responseTimeSuffix": ".",
+      "addressLine1": "Muhala Expansão,",
+      "addressLine2": "Nampula · presence in Nampula and Maputo, Mozambique",
+      "mapPinLabel": "Muhala Expansão, Nampula",
+      "mapHint": "Click to open in Google Maps",
+      "mapLink": "View on Google Maps →",
+      "socialLabel": "Social Media",
+      "cards": {
+        "faqKicker": "Frequently Asked Questions",
+        "faqTitle": "How long does it take to respond to my request?",
+        "faqBody": "We typically respond within 1 business day, depending on project complexity.",
+        "scopeKicker": "Services & Coverage",
+        "scopeTitle": "Do you only serve companies in Nampula?",
+        "scopeBody": "No. We are headquartered in Nampula with a presence in Nampula and Maputo, and we work across Mozambique according to client needs.",
+        "proposalKicker": "Proposals & Quotes",
+        "proposalTitle": "Do proposals have a cost?",
+        "proposalBody": "The initial request analysis and preparation of a base proposal have no associated costs."
       }
     }
   }
 }
-

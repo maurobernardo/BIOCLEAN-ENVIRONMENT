@@ -33,15 +33,15 @@ export function AboutSection() {
           transition={{ duration: 0.7 }}
           className="space-y-5"
         >
-          <div className="inline-flex w-fit items-center gap-2 rounded-full border border-primary-soft/60 bg-primary-soft/20 px-4 py-1 text-[11px] font-mono uppercase tracking-[0.18em] text-primary">
+          <div className="inline-flex w-fit items-center gap-2 rounded-full border border-primary-soft/60 bg-primary-soft/20 px-4 py-1 text-xs font-mono uppercase tracking-[0.18em] text-primary">
             <span className="h-1.5 w-1.5 rounded-full bg-primary" />
             <span>{t("kicker")}</span>
           </div>
           <h2 className="font-display text-3xl font-extrabold text-primary sm:text-4xl md:text-[2.6rem]">{t("title")}</h2>
-          <p className="text-sm text-warm-gray leading-relaxed">
+          <p className="text-sm text-warm-gray leading-relaxed md:text-base">
             {t("body1")}
           </p>
-          <p className="text-sm text-warm-gray leading-relaxed">
+          <p className="text-sm text-warm-gray leading-relaxed md:text-base">
             {t("body2")}
           </p>
         </motion.div>
@@ -64,10 +64,10 @@ export function AboutSection() {
             <div className="flex h-9 w-9 items-center justify-center rounded-full bg-primary-soft/30 text-primary">
               <Sparkles className="h-4 w-4" />
             </div>
-            <h3 className="mt-3 text-sm font-semibold text-primary">
+            <h3 className="mt-3 text-sm font-semibold text-primary sm:text-base">
               {tp("innovationTitle")}
             </h3>
-            <p className="mt-1 text-xs text-warm-gray">
+            <p className="mt-1 text-sm text-warm-gray">
               {tp("innovationBody")}
             </p>
           </motion.div>
@@ -83,10 +83,10 @@ export function AboutSection() {
             <div className="flex h-9 w-9 items-center justify-center rounded-full bg-primary-soft/30 text-primary">
               <Leaf className="h-4 w-4" />
             </div>
-            <h3 className="mt-3 text-sm font-semibold text-primary">
+            <h3 className="mt-3 text-sm font-semibold text-primary sm:text-base">
               {tp("sustainabilityTitle")}
             </h3>
-            <p className="mt-1 text-xs text-warm-gray">
+            <p className="mt-1 text-sm text-warm-gray">
               {tp("sustainabilityBody")}
             </p>
           </motion.div>
@@ -102,10 +102,10 @@ export function AboutSection() {
             <div className="flex h-9 w-9 items-center justify-center rounded-full bg-primary-soft/30 text-primary">
               <ShieldCheck className="h-4 w-4" />
             </div>
-            <h3 className="mt-3 text-sm font-semibold text-primary">
+            <h3 className="mt-3 text-sm font-semibold text-primary sm:text-base">
               {tp("complianceTitle")}
             </h3>
-            <p className="mt-1 text-xs text-warm-gray">
+            <p className="mt-1 text-sm text-warm-gray">
               {tp("complianceBody")}
             </p>
           </motion.div>

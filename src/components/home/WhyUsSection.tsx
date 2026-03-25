@@ -49,7 +49,7 @@ export function WhyUsSection() {
           transition={{ duration: 0.7 }}
           className="max-w-3xl space-y-3"
         >
-          <div className="inline-flex w-fit items-center gap-2 rounded-full border border-white/30 bg-white/10 px-4 py-1 text-[11px] font-mono uppercase tracking-[0.18em] text-primary-soft">
+          <div className="inline-flex w-fit items-center gap-2 rounded-full border border-white/30 bg-white/10 px-4 py-1 text-xs font-mono uppercase tracking-[0.18em] text-primary-soft">
             <span className="h-1.5 w-1.5 rounded-full bg-gold" />
             <span>{t("kicker")}</span>
           </div>
@@ -76,8 +76,8 @@ export function WhyUsSection() {
                 <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gold/10 text-gold">
                   <Icon className="h-5 w-5" />
                 </div>
-                <h3 className="mt-3 text-sm font-semibold">{card.title}</h3>
-                <p className="mt-2 text-xs text-zinc-200">{card.body}</p>
+                <h3 className="mt-3 text-sm font-semibold sm:text-base">{card.title}</h3>
+                <p className="mt-2 text-sm text-zinc-200 leading-relaxed">{card.body}</p>
               </motion.div>
             );
           })}

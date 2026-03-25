@@ -8,57 +8,24 @@ import Image from "next/image";
 
 type Category = "all" | "ambiental" | "limpeza" | "social" | "hst";
 
-const projects = [
-  {
-    name: "Auditoria Ambiental — Empresa Mineira, Nampula",
-    category: "ambiental" as Category,
-    location: "Nampula",
-    type: "Ambiental",
-    image: "/Galeria/Nampula.jpeg"
-  },
-  {
-    name: "Plano de Segurança Ocupacional — Construtora, Pemba",
-    category: "hst" as Category,
-    location: "Pemba",
-    type: "HST",
-    image: "/Galeria/HST.jpeg"
-  },
-  {
-    name: "Limpeza Industrial — Armazém Logístico, Nacala",
-    category: "limpeza" as Category,
-    location: "Nacala",
-    type: "Limpeza",
-    image: "/Galeria/Nacala.jpeg"
-  },
-  {
-    name: "EIA — Projecto Agroindustrial, Zambézia",
-    category: "ambiental" as Category,
-    location: "Zambézia",
-    type: "Ambiental",
-    image: "/Galeria/Zambezia.jpeg"
-  },
-  {
-    name: "Gestão de Resíduos — Hospital Provincial, Nampula",
-    category: "ambiental" as Category,
-    location: "Nampula",
-    type: "Ambiental",
-    image: "/Galeria/Nampula1.jpeg"
-  },
-  {
-    name: "Reassentamento Comunitário — Projecto de Infraestrutura",
-    category: "social" as Category,
-    location: "Moçambique",
-    type: "Social",
-    image: "/Galeria/Social.jpeg"
-  }
-];
+type GalleryItem = {
+  id: string;
+  category: Exclude<Category, "all">;
+  image: string;
+  name: string;
+  location: string;
+  type: string;
+};
 
 export function ProjectsPreviewSection() {
   const t = useTranslations("homeProjects");
+  const tGallery = useTranslations("projectGallery");
   const locale = useLocale();
   const router = useRouter();
   const [isPending, startTransition] = useTransition();
   const [filter, setFilter] = useState<Category>("all");
+
+  const projects = tGallery.raw("items") as GalleryItem[];
 
   const filtered =
     filter === "all"
@@ -76,7 +43,7 @@ export function ProjectsPreviewSection() {
       <div className="section-container section-padding relative z-10">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div className="space-y-2">
-            <div className="inline-flex w-fit items-center gap-2 rounded-full border border-primary-soft/60 bg-primary-soft/20 px-4 py-1 text-[11px] font-mono uppercase tracking-[0.18em] text-primary">
+            <div className="inline-flex w-fit items-center gap-2 rounded-full border border-primary-soft/60 bg-primary-soft/20 px-4 py-1 text-xs font-mono uppercase tracking-[0.18em] text-primary">
               <span className="h-1.5 w-1.5 rounded-full bg-primary" />
               <span>{t("kicker")}</span>
             </div>
@@ -85,7 +52,7 @@ export function ProjectsPreviewSection() {
             </h2>
           </div>
 
-          <div className="flex flex-wrap gap-2 text-xs font-mono uppercase tracking-[0.18em]">
+          <div className="flex flex-wrap gap-2 text-sm font-mono uppercase tracking-[0.18em]">
             <button
               type="button"
               onClick={() => setFilter("all")}
@@ -148,7 +115,7 @@ export function ProjectsPreviewSection() {
           <div className="mt-8 grid gap-6 md:grid-cols-3">
             {filtered.map((project) => (
               <motion.article
-                key={project.name}
+                key={project.id}
                 layout
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -165,13 +132,13 @@ export function ProjectsPreviewSection() {
                     className="object-cover transition duration-500 group-hover:scale-105"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-charcoal/80 via-charcoal/10 to-transparent" />
-                  <div className="absolute left-3 top-3 rounded-full bg-white/90 px-3 py-1 text-[10px] font-mono uppercase tracking-[0.18em] text-charcoal">
+                  <div className="absolute left-3 top-3 rounded-full bg-white/90 px-3 py-1 text-xs font-mono uppercase tracking-[0.18em] text-charcoal">
                     {project.type} · {project.location}
                   </div>
                 </div>
 
                 <div className="flex flex-col gap-3 px-4 pb-4 pt-3">
-                  <h3 className="text-sm font-semibold text-primary">
+                  <h3 className="text-sm font-semibold text-primary sm:text-base">
                     {project.name}
                   </h3>
                   <motion.div className="mt-1 flex justify-end">
@@ -182,9 +149,9 @@ export function ProjectsPreviewSection() {
                           router.push(`/${locale}/projectos`)
                         )
                       }
-                      className="rounded-full border border-primary bg-primary/5 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.18em] text-primary shadow-sm transition group-hover:bg-primary group-hover:text-white"
+                      className="rounded-full border border-primary bg-primary/5 px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-primary shadow-sm transition group-hover:bg-primary group-hover:text-white"
                     >
-                      {isPending ? "A abrir..." : t("cta")}
+                      {isPending ? t("pendingCta") : t("cta")}
                     </button>
                   </motion.div>
                 </div>
@@ -196,4 +163,3 @@ export function ProjectsPreviewSection() {
     </section>
   );
 }
-

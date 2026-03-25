@@ -27,7 +27,7 @@ export function PartnersSection() {
 
       <div className="section-container relative z-10 space-y-6">
         <div className="space-y-2 text-center">
-          <div className="inline-flex w-fit items-center gap-2 rounded-full border border-white/25 bg-white/10 px-4 py-1 text-[11px] font-mono uppercase tracking-[0.18em] text-primary-soft">
+          <div className="inline-flex w-fit items-center gap-2 rounded-full border border-white/25 bg-white/10 px-4 py-1 text-xs font-mono uppercase tracking-[0.18em] text-primary-soft">
             <span className="h-1.5 w-1.5 rounded-full bg-gold" />
             <span>{t("kicker")}</span>
           </div>
@@ -49,7 +49,7 @@ export function PartnersSection() {
             {[...partners, ...partners].map((name, idx) => (
               <div
                 key={`${name}-${idx}`}
-                className="flex h-16 min-w-[160px] items-center justify-center rounded-2xl border-2 border-white/15 bg-white/5 px-4 text-xs font-mono uppercase tracking-[0.18em] text-zinc-300 transition hover:border-gold/60 hover:bg-white/10 hover:text-gold"
+                className="flex h-16 min-w-[160px] items-center justify-center rounded-2xl border-2 border-white/15 bg-white/5 px-4 text-sm font-mono uppercase tracking-[0.18em] text-zinc-300 transition hover:border-gold/60 hover:bg-white/10 hover:text-gold"
               >
                 {name}
               </div>

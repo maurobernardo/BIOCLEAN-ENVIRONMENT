@@ -7,84 +7,25 @@ import {
   Shield,
   Sparkles,
   Recycle,
-  Users
+  Users,
+  type LucideIcon
 } from "lucide-react";
 import { useTranslations } from "next-intl";
 
-const services = [
-  {
-    icon: Leaf,
-    title: "Consultoria Ambiental",
-    description:
-      "Estudos de Impacto Ambiental (EIA), auditorias, planos de gestão e monitoria de desempenho ambiental.",
-    bullets: [
-      "Estudos de Impacto Ambiental (EIA)",
-      "Planos de Gestão Ambiental",
-      "Auditorias Ambientais",
-      "Licenciamento Ambiental"
-    ]
-  },
-  {
-    icon: LineChart,
-    title: "Monitoramento Ambiental",
-    description:
-      "Monitoria periódica de indicadores físicos, químicos e biológicos para controlo de impactos.",
-    bullets: [
-      "Monitoria de qualidade de água",
-      "Monitoria de qualidade do ar",
-      "Ruído e vibrações",
-      "Relatórios de conformidade"
-    ]
-  },
-  {
-    icon: Shield,
-    title: "Higiene & Segurança no Trabalho",
-    description:
-      "Avaliação de riscos, HIRA, planos de segurança e capacitação de equipas.",
-    bullets: [
-      "Avaliação de riscos (HIRA)",
-      "Planos de segurança ocupacional",
-      "Formação em HST",
-      "Procedimentos de emergência"
-    ]
-  },
-  {
-    icon: Sparkles,
-    title: "Limpeza Geral e Industrial",
-    description:
-      "Serviços de limpeza profissional para escritórios, unidades industriais e infraestruturas críticas.",
-    bullets: [
-      "Limpeza de escritórios",
-      "Limpeza industrial pesada",
-      "Limpeza pós-obra",
-      "Planos de manutenção"
-    ]
-  },
-  {
-    icon: Recycle,
-    title: "Gestão de Resíduos",
-    description:
-      "Soluções integradas para resíduos sólidos urbanos, industriais e hospitalares.",
-    bullets: [
-      "Planos de gestão de resíduos",
-      "Segregação e armazenamento",
-      "Transporte e destino final",
-      "Resíduos hospitalares"
-    ]
-  },
-  {
-    icon: Users,
-    title: "Implementação e Gestão Social",
-    description:
-      "Programas sociais, reassentamento, consulta pública e envolvimento comunitário.",
-    bullets: [
-      "Planos de gestão social",
-      "Reassentamento e compensações",
-      "Consulta e participação pública",
-      "Monitoria de impacto social"
-    ]
-  }
+const SERVICE_ORDER: { key: string; icon: LucideIcon }[] = [
+  { key: "consultoria", icon: Leaf },
+  { key: "monitoramento", icon: LineChart },
+  { key: "hst", icon: Shield },
+  { key: "limpeza", icon: Sparkles },
+  { key: "residuos", icon: Recycle },
+  { key: "social", icon: Users }
 ];
+
+type ServiceItem = {
+  title: string;
+  description: string;
+  bullets: string[];
+};
 
 export function ServicesSection() {
   const t = useTranslations("homeServices");
@@ -99,7 +40,7 @@ export function ServicesSection() {
 
       <div className="section-container relative z-10 pt-24 pb-16 sm:pt-28 sm:pb-20 lg:pt-32 lg:pb-24">
         <div className="flex flex-col gap-5 text-left">
-          <div className="inline-flex w-fit items-center gap-2 rounded-full border border-primary/30 bg-primary/5 px-4 py-1.5 text-[11px] font-mono uppercase tracking-[0.18em] text-primary">
+          <div className="inline-flex w-fit items-center gap-2 rounded-full border border-primary/30 bg-primary/5 px-4 py-1.5 text-xs font-mono uppercase tracking-[0.18em] text-primary">
             <span className="h-1.5 w-1.5 rounded-full bg-primary" />
             <span>{t("kicker")}</span>
           </div>
@@ -109,17 +50,18 @@ export function ServicesSection() {
             </h2>
             <div className="h-1 w-24 rounded-full bg-gold" />
           </div>
-          <p className="max-w-2xl text-sm text-warm-gray">
+          <p className="max-w-2xl text-sm text-warm-gray leading-relaxed md:text-base">
             {t("intro")}
           </p>
         </div>
 
         <div className="mt-16 grid gap-6 md:grid-cols-2">
-          {services.map((service, idx) => {
-            const Icon = service.icon;
+          {SERVICE_ORDER.map((def, idx) => {
+            const Icon = def.icon;
+            const service = t.raw(`items.${def.key}`) as ServiceItem;
             return (
               <motion.article
-                key={service.title}
+                key={def.key}
                 initial={{ opacity: 0, y: 32 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, amount: 0.3 }}
@@ -137,17 +79,17 @@ export function ServicesSection() {
                     <Icon className="h-7 w-7" />
                   </div>
                   <div className="min-w-0 flex-1">
-                    <h3 className="text-lg font-bold text-primary">
+                    <h3 className="text-base font-bold text-primary sm:text-lg">
                       {service.title}
                     </h3>
-                    <p className="mt-2 text-sm text-warm-gray leading-relaxed">
+                    <p className="mt-2 text-sm text-warm-gray leading-relaxed md:text-base">
                       {service.description}
                     </p>
                     <ul className="mt-4 space-y-2">
                       {service.bullets.map((item) => (
                         <li
                           key={item}
-                          className="flex items-center gap-2 text-sm text-warm-gray"
+                          className="flex items-center gap-2 text-sm text-warm-gray md:text-base"
                         >
                           <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-primary/15">
                             <span className="h-1.5 w-1.5 rounded-full bg-primary" />
@@ -166,4 +108,3 @@ export function ServicesSection() {
     </section>
   );
 }
-

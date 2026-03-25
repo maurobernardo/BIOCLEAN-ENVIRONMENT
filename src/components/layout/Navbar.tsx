@@ -125,9 +125,10 @@ export function Navbar() {
             </div>
 
             <div className="flex items-center gap-4">
-              <div className="flex items-center gap-1 rounded-full border border-white/10 bg-black/30 p-1 text-[11px] font-mono uppercase tracking-[0.18em]">
+              <div className="flex items-center gap-1 rounded-full border border-white/10 bg-black/30 p-1 text-xs font-mono uppercase tracking-[0.18em]">
                 <Link
                   href={replaceLocale("pt")}
+                  scroll={false}
                   className={`px-2 py-1 rounded-full transition-colors ${
                     currentLocale === "pt"
                       ? "bg-gold text-charcoal"
@@ -138,6 +139,7 @@ export function Navbar() {
                 </Link>
                 <Link
                   href={replaceLocale("en")}
+                  scroll={false}
                   className={`px-2 py-1 rounded-full transition-colors ${
                     currentLocale === "en"
                       ? "bg-gold text-charcoal"
@@ -150,7 +152,7 @@ export function Navbar() {
 
               <Link
                 href={`/${currentLocale}/contacto`}
-                className={`rounded-full px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] shadow-lg transition hover:shadow-xl ${
+                className={`rounded-full px-4 py-2 text-sm font-semibold uppercase tracking-[0.18em] shadow-lg transition hover:shadow-xl ${
                   isScrolled
                     ? "bg-primary text-white shadow-primary/40 hover:shadow-primary/60"
                     : "bg-gold text-charcoal shadow-gold/40 hover:shadow-gold/60"
@@ -194,7 +196,7 @@ export function Navbar() {
                   <Link
                     key={key}
                     href={fullPath}
-                    className={`flex items-center gap-3 rounded-xl px-4 py-3 text-sm font-medium transition-colors ${
+                    className={`flex items-center gap-3 rounded-xl px-4 py-3 text-base font-medium transition-colors ${
                       active
                         ? "bg-white/20 text-white"
                         : "text-primary-soft hover:bg-white/15 hover:text-white"
@@ -214,6 +216,7 @@ export function Navbar() {
               <div className="flex gap-2 pt-2">
                 <Link
                   href={replaceLocale("pt")}
+                  scroll={false}
                   className={`flex-1 rounded-xl px-4 py-2.5 text-center text-sm font-semibold transition-colors ${
                     currentLocale === "pt"
                       ? "bg-white text-primary"
@@ -224,6 +227,7 @@ export function Navbar() {
                 </Link>
                 <Link
                   href={replaceLocale("en")}
+                  scroll={false}
                   className={`flex-1 rounded-xl px-4 py-2.5 text-center text-sm font-semibold transition-colors ${
                     currentLocale === "en"
                       ? "bg-white text-primary"

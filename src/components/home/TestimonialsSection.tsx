@@ -51,7 +51,7 @@ export function TestimonialsSection() {
 
       <div className="section-container relative z-10">
         <div className="flex flex-col items-center gap-4 text-center">
-          <div className="inline-flex w-fit items-center gap-2 rounded-full border border-primary-soft/60 bg-primary-soft/20 px-4 py-1 text-[11px] font-mono uppercase tracking-[0.18em] text-primary">
+          <div className="inline-flex w-fit items-center gap-2 rounded-full border border-primary-soft/60 bg-primary-soft/20 px-4 py-1 text-xs font-mono uppercase tracking-[0.18em] text-primary">
             <span className="h-1.5 w-1.5 rounded-full bg-primary" />
             <span>{t("kicker")}</span>
           </div>
@@ -76,10 +76,10 @@ export function TestimonialsSection() {
                     <Star key={i} className="h-4 w-4 fill-gold" />
                   ))}
                 </div>
-                <p className="text-sm text-primary italic">
+                <p className="text-sm text-primary italic leading-relaxed md:text-base">
                   “{current.quote}”
                 </p>
-                <p className="text-xs font-semibold text-primary">
+                <p className="text-sm font-semibold text-primary">
                   {current.name} ·{" "}
                   <span className="font-normal text-warm-gray">
                     {current.company}

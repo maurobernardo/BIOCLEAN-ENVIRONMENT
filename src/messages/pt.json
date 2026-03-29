@@ -147,24 +147,24 @@
       {
         "name": "Manuel de Andrade",
         "role": "CEO & Fundador",
-        "bio": "Engenheiro Rural e especialista em Água, Saneamento e Gestão Ambiental, Manuel lidera a Bioclean Environment com foco em crescimento, inovação e sustentabilidade. Com experiência consolidada em HSE, auditorias ambientais e gestão de projectos, garante soluções seguras e eficientes para clientes, promovendo práticas responsáveis de saúde, segurança e meio ambiente.",
+        "bio": "Engenheiro de Desenvolvimento Comunitário e especialista em Água, Saneamento e Gestão Ambiental, Manuel lidera a Bioclean Environment com foco em crescimento, inovação e sustentabilidade. Com experiência consolidada em HSE, auditorias ambientais e gestão de projectos, garante soluções seguras e eficientes para clientes, promovendo práticas responsáveis de saúde, segurança e meio ambiente.",
         "imageSrc": "/images/ceo.jpeg"
       },
       {
         "name": "Gere António da Paz",
-        "role": "HSE Manager",
+        "role": "Gestor de HST",
         "bio": "Profissional de HSSE (Health, Safety, Security and Environment) com mais de 10 anos de experiência em projectos industriais, construção civil, obras marítimas e setor de energia. Especialista em gestão de segurança, conformidade legal e prevenção de riscos, Gere lidera as operações de HSE na Bioclean, promovendo a excelência operacional, a segurança no trabalho e a sustentabilidade em todos os projectos da empresa.",
         "imageSrc": "/images/gere.jpeg"
       },
       {
         "name": "Mauro Zibane",
-        "role": "IT Manager",
+        "role": "Gestor de TI",
         "bio": "Responsável pela gestão e evolução da infraestrutura tecnológica da Bioclean, incluindo desenvolvimento e manutenção do website, sistemas e soluções digitais. Atua na implementação de tecnologias que melhoram a eficiência operacional e fortalecem a presença digital da empresa.",
         "imageSrc": "/images/mauro.PNG"
       },
       {
         "name": "Milton Guambe",
-        "role": "HR & Finance Manager",
+        "role": "Gestor de RH & Finanças",
         "bio": "Responsável pela gestão de recursos humanos e processos financeiros da empresa, incluindo controlo de crédito, administração e apoio à tomada de decisões. Destaca-se pela organização, responsabilidade e capacidade de atuar sob pressão, contribuindo para o bom funcionamento interno da Bioclean.",
         "imageSrc": "/images/milton.jpeg"
       },

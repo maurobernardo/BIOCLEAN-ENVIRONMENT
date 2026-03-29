@@ -11,6 +11,8 @@ import {
   type LucideIcon
 } from "lucide-react";
 import { useTranslations } from "next-intl";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const SERVICE_ORDER: { key: string; icon: LucideIcon }[] = [
   { key: "consultoria", icon: Leaf },
@@ -29,6 +31,9 @@ type ServiceItem = {
 
 export function ServicesSection() {
   const t = useTranslations("homeServices");
+  const pathname = usePathname();
+  const segments = pathname.split("/").filter(Boolean);
+  const locale = segments[0] === "pt" || segments[0] === "en" ? segments[0] : "pt";
 
   return (
     <section className="section-divider relative overflow-hidden bg-muted">
@@ -98,11 +103,35 @@ export function ServicesSection() {
                         </li>
                       ))}
                     </ul>
+
+                    <div className="mt-5">
+                      <Link
+                        href={`/${locale}/contacto`}
+                        className="inline-flex rounded-full bg-primary px-4 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-white shadow-md shadow-primary/25 transition hover:bg-primary-accent"
+                      >
+                        {t("ctaQuote")}
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </motion.article>
             );
           })}
+        </div>
+
+        <div className="mt-12 flex flex-wrap items-center gap-3">
+          <Link
+            href={`/${locale}/contacto`}
+            className="rounded-full bg-gold px-6 py-2.5 text-xs font-semibold uppercase tracking-[0.16em] text-charcoal shadow-md shadow-gold/30 transition hover:shadow-lg hover:shadow-gold/40"
+          >
+            {t("ctaSpecialist")}
+          </Link>
+          <Link
+            href={`/${locale}/contacto`}
+            className="rounded-full border border-primary/40 bg-white px-6 py-2.5 text-xs font-semibold uppercase tracking-[0.16em] text-primary transition hover:bg-primary/5"
+          >
+            {t("ctaConsultation")}
+          </Link>
         </div>
       </div>
     </section>

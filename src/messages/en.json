@@ -14,6 +14,9 @@
     "tagline": "Environmental, Social, Occupational Health & Safety Consulting",
     "ctaServices": "Explore Our Services",
     "ctaContact": "Talk to Us",
+    "ctaQuote": "Request a Quote",
+    "ctaSpecialist": "Talk to a Specialist",
+    "ctaConsultation": "Book a Consultation",
     "foundedBadge": "Founded in 2024 · Nampula & Maputo, Mozambique",
     "sideTitle": "Environmental, Social & Occupational Health & Safety Consulting",
     "sideBody": "End-to-end advisory in environmental impact assessments, waste management, occupational health and safety, and sustainable social projects in Mozambique.",
@@ -54,6 +57,9 @@
     "kicker": "Services",
     "title": "Our Services",
     "intro": "A comprehensive portfolio of environmental, social and occupational health & safety services designed to support companies throughout the entire project lifecycle.",
+    "ctaQuote": "Request a Quote",
+    "ctaSpecialist": "Talk to a Specialist",
+    "ctaConsultation": "Book a Consultation",
     "items": {
       "consultoria": {
         "title": "Environmental Consulting",

@@ -14,6 +14,9 @@
     "tagline": "Consultoria Ambiental, Social, Saúde e segurança Ocupacional",
     "ctaServices": "Conheça os Nossos Serviços",
     "ctaContact": "Fale Connosco",
+    "ctaQuote": "Solicitar Orçamento",
+    "ctaSpecialist": "Fale com um Especialista",
+    "ctaConsultation": "Marcar Consulta",
     "foundedBadge": "Fundada em 2024 · Nampula e Maputo, Moçambique",
     "sideTitle": "Consultoria Ambiental, Social e Saúde e Segurança Ocupacional",
     "sideBody": "Assessoria completa em estudos de impacto ambiental, gestão de resíduos, higiene e segurança no trabalho, e projectos sociais sustentáveis em Moçambique.",
@@ -54,6 +57,9 @@
     "kicker": "Serviços",
     "title": "Os Nossos Serviços",
     "intro": "Um portfólio completo de serviços ambientais, sociais e de higiene e segurança no trabalho, desenhado para apoiar empresas em todo o ciclo de vida dos seus projectos.",
+    "ctaQuote": "Solicitar Orçamento",
+    "ctaSpecialist": "Fale com um Especialista",
+    "ctaConsultation": "Marcar Consulta",
     "items": {
       "consultoria": {
         "title": "Consultoria Ambiental",

@@ -6,6 +6,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { Facebook, Linkedin, MessageCircle } from "lucide-react";
+import { getWhatsAppHref } from "@/lib/whatsapp";
 
 const container = {
   hidden: { opacity: 0, y: 40 },
@@ -76,16 +77,22 @@ export function HeroSection() {
             className="flex flex-wrap items-center gap-4"
           >
             <Link
-              href={`/${locale}/servicos`}
+              href={`/${locale}/contacto`}
               className="rounded-full bg-gold px-7 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-charcoal shadow-lg shadow-gold/40 transition hover:shadow-xl hover:shadow-gold/60"
             >
-              {t("ctaServices")}
+              {t("ctaQuote")}
             </Link>
             <Link
               href={`/${locale}/contacto`}
               className="rounded-full border border-white/60 bg-white/5 px-7 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white backdrop-blur-sm transition hover:bg-white/15"
             >
-              {t("ctaContact")}
+              {t("ctaSpecialist")}
+            </Link>
+            <Link
+              href={`/${locale}/contacto`}
+              className="rounded-full border border-primary-soft/60 bg-primary-soft/20 px-7 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-primary-soft backdrop-blur-sm transition hover:bg-primary-soft/30"
+            >
+              {t("ctaConsultation")}
             </Link>
           </motion.div>
 
@@ -139,7 +146,7 @@ export function HeroSection() {
               <Linkedin className="h-3.5 w-3.5" />
             </a>
             <a
-              href="https://wa.me/258876372482"
+              href={getWhatsAppHref(locale)}
               target="_blank"
               rel="noreferrer"
               className="flex h-7 w-7 items-center justify-center rounded-full bg-black/50 text-white transition hover:bg-white hover:text-charcoal"

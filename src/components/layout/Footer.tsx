@@ -4,9 +4,14 @@ import { Facebook, Linkedin, MessageCircle } from "lucide-react";
 import Image from "next/image";
 import { Link } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
+import { usePathname } from "next/navigation";
+import { getWhatsAppHref } from "@/lib/whatsapp";
 
 export function Footer() {
   const t = useTranslations("footer");
+  const pathname = usePathname();
+  const segments = pathname.split("/").filter(Boolean);
+  const locale = segments[0] === "pt" || segments[0] === "en" ? segments[0] : "pt";
 
   return (
     <footer className="border-t border-primary-soft/40 bg-primary text-zinc-100">
@@ -107,7 +112,7 @@ export function Footer() {
                 Facebook
               </a>
               <a
-                href="https://wa.me/258876372482"
+                href={getWhatsAppHref(locale)}
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-3 py-2 text-sm text-primary-soft transition hover:bg-white/20 md:text-base"

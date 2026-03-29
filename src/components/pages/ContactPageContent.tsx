@@ -2,8 +2,10 @@
 
 import { motion } from "framer-motion";
 import { ChevronDown, Facebook, Linkedin, MapPin, MessageCircle } from "lucide-react";
+import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { FormEvent, useState } from "react";
+import { getWhatsAppHref } from "@/lib/whatsapp";
 
 type FormState = {
   name: string;
@@ -17,6 +19,9 @@ type FormErrors = Partial<Record<keyof FormState, string>>;
 
 export function ContactPageContent() {
   const t = useTranslations("pages.contacto");
+  const pathname = usePathname();
+  const segments = pathname.split("/").filter(Boolean);
+  const locale = segments[0] === "pt" || segments[0] === "en" ? segments[0] : "pt";
 
   const [form, setForm] = useState<FormState>({
     name: "",
@@ -308,7 +313,7 @@ export function ContactPageContent() {
                 Facebook
               </a>
               <a
-                href="https://wa.me/258876372482"
+                href={getWhatsAppHref(locale)}
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border-2 border-primary-soft/60 bg-primary/5 px-4 py-2.5 text-sm font-medium text-primary transition hover:border-primary hover:bg-primary hover:text-white md:py-3 md:text-base"

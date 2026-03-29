@@ -13,6 +13,15 @@ export const metadata: Metadata = {
     "gestão ambiental",
     "BIOCLEAN ENVIRONMENT",
   ],
+
+  // ── Favicon / ícones ───────────────────────────────────────
+  // Substitui "logo.png" pelo nome exacto do teu ficheiro em public/images/
+  icons: {
+    icon: "/images/logo.png",
+    apple: "/images/logo.png",
+    shortcut: "/images/logo.png",
+  },
+
   openGraph: {
     title: "BIOCLEAN ENVIRONMENT SU, LDA",
     description:
@@ -35,6 +44,12 @@ export const metadata: Metadata = {
     title: "BIOCLEAN ENVIRONMENT SU, LDA",
     description:
       "Soluções profissionais em consultoria ambiental e social em Moçambique.",
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large" },
   },
 };
 

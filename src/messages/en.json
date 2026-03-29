@@ -147,8 +147,14 @@
       {
         "name": "Manuel de Andrade",
         "role": "CEO & Founder",
-        "bio": "HSSE (Health, Safety, Security and Environment) professional with over 10 years of experience in industrial projects, civil construction, maritime works and the energy sector. A specialist in safety management, legal compliance and risk prevention, he leads Bioclean with a focus on operational excellence, sustainability and innovation.",
-        "imageSrc": "/images/ceo.png"
+        "bio": "A Rural Engineer and specialist in Water, Sanitation and Environmental Management, Manuel leads Bioclean Environment with a focus on growth, innovation and sustainability. With solid experience in HSE, environmental audits and project management, he ensures safe and efficient solutions for clients, promoting responsible health, safety and environmental practices.",
+        "imageSrc": "/images/ceo.jpeg"
+      },
+      {
+        "name": "Gere António da Paz",
+        "role": "HSE Manager",
+        "bio": "HSSE (Health, Safety, Security and Environment) professional with over 10 years of experience in industrial projects, civil construction, maritime works and the energy sector. A specialist in safety management, legal compliance and risk prevention, Gere leads Bioclean’s HSE operations, promoting operational excellence, workplace safety and sustainability across all company projects.",
+        "imageSrc": "/images/logo.png"
       },
       {
         "name": "Mauro Zibane",

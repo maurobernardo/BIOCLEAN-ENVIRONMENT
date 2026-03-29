@@ -33,7 +33,7 @@ export function CeoSection() {
                 <div className="absolute -inset-1 rounded-full bg-gradient-to-br from-primary/30 to-gold/20 blur-md" />
                 <div className="relative h-32 w-32 overflow-hidden rounded-full border-4 border-white shadow-xl ring-4 ring-primary/20">
                   <Image
-                    src="/images/ceo.png"
+                    src="/images/ceo.jpeg"
                     alt={t("name")}
                     fill
                     className="object-cover"

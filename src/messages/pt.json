@@ -66,7 +66,7 @@
         ]
       },
       "monitoramento": {
-        "title": "Monitoramento Ambiental",
+        "title": "Monitorização Ambiental",
         "description": "Monitoria periódica de indicadores físicos, químicos e biológicos para controlo de impactos.",
         "bullets": [
           "Monitoria de qualidade de água",
@@ -147,8 +147,14 @@
       {
         "name": "Manuel de Andrade",
         "role": "CEO & Fundador",
-        "bio": "Profissional de HSSE (Health, Safety, Security and Environment) com mais de 10 anos de experiência em projetos industriais, construção civil, obras marítimas e setor de energia. Especialista em gestão de segurança, conformidade legal e prevenção de riscos, lidera a Bioclean com foco na excelência operacional, sustentabilidade e inovação.",
-        "imageSrc": "/images/ceo.png"
+        "bio": "Engenheiro Rural e especialista em Água, Saneamento e Gestão Ambiental, Manuel lidera a Bioclean Environment com foco em crescimento, inovação e sustentabilidade. Com experiência consolidada em HSE, auditorias ambientais e gestão de projectos, garante soluções seguras e eficientes para clientes, promovendo práticas responsáveis de saúde, segurança e meio ambiente.",
+        "imageSrc": "/images/ceo.jpeg"
+      },
+      {
+        "name": "Gere António da Paz",
+        "role": "HSE Manager",
+        "bio": "Profissional de HSSE (Health, Safety, Security and Environment) com mais de 10 anos de experiência em projectos industriais, construção civil, obras marítimas e setor de energia. Especialista em gestão de segurança, conformidade legal e prevenção de riscos, Gere lidera as operações de HSE na Bioclean, promovendo a excelência operacional, a segurança no trabalho e a sustentabilidade em todos os projectos da empresa.",
+        "imageSrc": "/images/gere.jpeg"
       },
       {
         "name": "Mauro Zibane",
@@ -165,7 +171,7 @@
       {
         "name": "Isidro Simão",
         "role": "Especialista & Consultor Ambiental",
-        "bio": "Engenheiro Ambiental com experiência em gestão ambiental, salvaguardas sociais e HSE em projetos de grande escala. Atua na avaliação de impactos ambientais, licenciamento e implementação de planos de gestão, garantindo conformidade com normas nacionais e internacionais e promovendo a sustentabilidade dos projetos.",
+        "bio": "Engenheiro Ambiental com experiência em gestão ambiental, salvaguardas sociais e HSE em projectos de grande escala. Atua na avaliação de impactos ambientais, licenciamento e implementação de planos de gestão, garantindo conformidade com normas nacionais e internacionais e promovendo a sustentabilidade dos projectos.",
         "imageSrc": "/images/isidro.jpeg"
       }
     ]
@@ -379,7 +385,7 @@
         "errorSummary": "Por favor, preencha os campos obrigatórios destacados.",
         "services": {
           "consultoria": "Consultoria Ambiental",
-          "monitoramento": "Monitoramento Ambiental",
+          "monitoramento": "Monitorização Ambiental",
           "hst": "Higiene e Segurança no Trabalho",
           "limpeza": "Limpeza Geral e Industrial",
           "residuos": "Gestão de Resíduos",

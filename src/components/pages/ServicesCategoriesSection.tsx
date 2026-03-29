@@ -48,12 +48,12 @@ const categoriesPt: ServiceCategory[] = [
         ]
       },
       {
-        title: "Monitoramento Ambiental",
+        title: "Monitorização Ambiental",
         image: "/Galeria/Nampula1.jpeg",
         bullets: [
           "Qualidade do Ar.",
           "Análise de Água.",
-          "Monitoramento de Ruído.",
+          "Monitorização de Ruído.",
           "Relatórios técnicos.",
           "Acompanhamento periódico."
         ]
@@ -138,7 +138,7 @@ const categoriesPt: ServiceCategory[] = [
           "Avaliação socioeconómica.",
           "Consulta e participação das comunidades.",
           "Compensação justa e reassentamento.",
-          "Monitoramento pós‑reassentamento."
+          "Monitorização pós‑reassentamento."
         ]
       }
     ]
@@ -197,17 +197,17 @@ const categoriesPt: ServiceCategory[] = [
         title: "Projeção e Manutenção de Sistemas de Gestão de Resíduos Sólidos",
         image: "/Galeria/Zambezia.jpeg",
         bullets: [
-          "Projetos de recolha, transporte e tratamento de resíduos.",
+          "Projectos de recolha, transporte e tratamento de resíduos.",
           "Resíduos urbanos, industriais e hospitalares.",
           "Programas de reciclagem e reaproveitamento.",
-          "Projetos de aterros sanitários e estações de tratamento."
+          "Projectos de aterros sanitários e estações de tratamento."
         ]
       },
       {
         title: "Consultoria em Sustentabilidade e Energias Renováveis",
         image: "/Galeria/Social.jpeg",
         bullets: [
-          "Projetos de eficiência energética e energias limpas.",
+          "Projectos de eficiência energética e energias limpas.",
           "Avaliação de pegada de carbono.",
           "Medidas de mitigação.",
           "Programas de responsabilidade ambiental corporativa."

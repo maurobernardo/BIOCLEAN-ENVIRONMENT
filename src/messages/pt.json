@@ -4,6 +4,7 @@
     "about": "Sobre",
     "services": "Serviços",
     "projects": "Projectos",
+    "team": "Equipa",
     "contact": "Contacto",
     "ctaProposal": "Contacte-nos"
   },
@@ -137,6 +138,37 @@
     "bio": "Com experiência em projectos de água, saneamento, gestão de resíduos e consultoria ambiental, lidera a BIOCLEAN ENVIRONMENT com foco em rigor técnico, ética e impacto positivo nas comunidades.",
     "skillsLabel": "Competências-Chave",
     "skills": ["ISO 14001", "ISO 45001", "HIRA", "Gestão de Resíduos", "Sustentabilidade"]
+  },
+  "teamSection": {
+    "kicker": "Equipa",
+    "title": "A Nossa Equipa",
+    "intro": "Profissionais multidisciplinares que combinam experiência técnica, conformidade e inovação ao serviço dos nossos clientes.",
+    "members": [
+      {
+        "name": "Manuel de Andrade",
+        "role": "CEO & Fundador",
+        "bio": "Profissional de HSSE (Health, Safety, Security and Environment) com mais de 10 anos de experiência em projetos industriais, construção civil, obras marítimas e setor de energia. Especialista em gestão de segurança, conformidade legal e prevenção de riscos, lidera a Bioclean com foco na excelência operacional, sustentabilidade e inovação.",
+        "imageSrc": "/images/ceo.png"
+      },
+      {
+        "name": "Mauro Zibane",
+        "role": "IT Manager",
+        "bio": "Responsável pela gestão e evolução da infraestrutura tecnológica da Bioclean, incluindo desenvolvimento e manutenção do website, sistemas e soluções digitais. Atua na implementação de tecnologias que melhoram a eficiência operacional e fortalecem a presença digital da empresa.",
+        "imageSrc": "/images/mauro.PNG"
+      },
+      {
+        "name": "Milton Guambe",
+        "role": "HR & Finance Manager",
+        "bio": "Responsável pela gestão de recursos humanos e processos financeiros da empresa, incluindo controlo de crédito, administração e apoio à tomada de decisões. Destaca-se pela organização, responsabilidade e capacidade de atuar sob pressão, contribuindo para o bom funcionamento interno da Bioclean.",
+        "imageSrc": "/images/milton.jpeg"
+      },
+      {
+        "name": "Isidro Simão",
+        "role": "Especialista & Consultor Ambiental",
+        "bio": "Engenheiro Ambiental com experiência em gestão ambiental, salvaguardas sociais e HSE em projetos de grande escala. Atua na avaliação de impactos ambientais, licenciamento e implementação de planos de gestão, garantindo conformidade com normas nacionais e internacionais e promovendo a sustentabilidade dos projetos.",
+        "imageSrc": "/images/isidro.jpeg"
+      }
+    ]
   },
   "homeProjects": {
     "kicker": "Galeria de Projectos",

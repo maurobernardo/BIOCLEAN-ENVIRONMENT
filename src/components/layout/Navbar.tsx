@@ -10,7 +10,8 @@ import {
   Info,
   Briefcase,
   ImageIcon,
-  PhoneCall
+  PhoneCall,
+  Users
 } from "lucide-react";
 import { useEffect, useState } from "react";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
@@ -21,6 +22,7 @@ const navLinks = [
   { href: "/sobre", key: "nav.about", icon: Info },
   { href: "/servicos", key: "nav.services", icon: Briefcase },
   { href: "/projectos", key: "nav.projects", icon: ImageIcon },
+  { href: "/#equipa", key: "nav.team", icon: Users },
   { href: "/contacto", key: "nav.contact", icon: PhoneCall }
 ] as const;
 
@@ -77,13 +79,16 @@ export function Navbar() {
       >
         <nav className="section-container flex items-center justify-between py-3">
           <div className="flex items-center gap-3">
-            <Image
-              src="/images/logo.png"
-              alt="BIOCLEAN ENVIRONMENT logo"
-              width={40}
-              height={40}
-              className="rounded-full"
-            />
+            <Link href={`/${currentLocale}`} aria-label="BIOCLEAN ENVIRONMENT">
+              <Image
+                src="/images/logo.png"
+                alt="BIOCLEAN ENVIRONMENT logo"
+                width={40}
+                height={40}
+                className="rounded-full"
+                priority
+              />
+            </Link>
           </div>
 
           <div

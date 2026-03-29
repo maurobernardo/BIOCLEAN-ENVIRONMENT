@@ -38,7 +38,7 @@ export function ServicesSection() {
         <div className="absolute bottom-0 left-0 h-64 w-64 rounded-full bg-gold/15 blur-3xl" />
       </div>
 
-      <div className="section-container relative z-10 pt-24 pb-16 sm:pt-28 sm:pb-20 lg:pt-32 lg:pb-24">
+      <div className="section-container section-padding relative z-10">
         <div className="flex flex-col gap-5 text-left">
           <div className="inline-flex w-fit items-center gap-2 rounded-full border border-primary/30 bg-primary/5 px-4 py-1.5 text-xs font-mono uppercase tracking-[0.18em] text-primary">
             <span className="h-1.5 w-1.5 rounded-full bg-primary" />

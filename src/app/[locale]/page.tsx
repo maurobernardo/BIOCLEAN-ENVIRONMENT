@@ -5,6 +5,7 @@ import { AboutSection } from "@/components/home/AboutSection";
 import { ServicesSection } from "@/components/home/ServicesSection";
 import { WhyUsSection } from "@/components/home/WhyUsSection";
 import { CeoSection } from "@/components/home/CeoSection";
+import { TeamSection } from "@/components/shared/TeamSection";
 import { ProjectsPreviewSection } from "@/components/home/ProjectsPreviewSection";
 import { TestimonialsSection } from "@/components/home/TestimonialsSection";
 import { PartnersSection } from "@/components/home/PartnersSection";
@@ -32,6 +33,7 @@ export default function LocaleHomePage() {
       <ServicesSection />
       <WhyUsSection />
       <CeoSection />
+      <TeamSection />
       <ProjectsPreviewSection />
       <TestimonialsSection />
       <PartnersSection />

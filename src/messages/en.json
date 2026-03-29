@@ -4,6 +4,7 @@
     "about": "About",
     "services": "Services",
     "projects": "Projects",
+    "team": "Team",
     "contact": "Contact",
     "ctaProposal": "Contact Us"
   },
@@ -137,6 +138,37 @@
     "bio": "With experience in water, sanitation, waste management and environmental consulting projects, he leads BIOCLEAN ENVIRONMENT with a strong focus on technical rigor, ethics and positive community impact.",
     "skillsLabel": "Key Skills",
     "skills": ["ISO 14001", "ISO 45001", "HIRA", "Waste Management", "Sustainability"]
+  },
+  "teamSection": {
+    "kicker": "Team",
+    "title": "Our Team",
+    "intro": "Multidisciplinary professionals combining technical expertise, compliance and innovation for our clients.",
+    "members": [
+      {
+        "name": "Manuel de Andrade",
+        "role": "CEO & Founder",
+        "bio": "HSSE (Health, Safety, Security and Environment) professional with over 10 years of experience in industrial projects, civil construction, maritime works and the energy sector. A specialist in safety management, legal compliance and risk prevention, he leads Bioclean with a focus on operational excellence, sustainability and innovation.",
+        "imageSrc": "/images/ceo.png"
+      },
+      {
+        "name": "Mauro Zibane",
+        "role": "IT Manager",
+        "bio": "Responsible for managing and evolving Bioclean’s technology infrastructure, including development and maintenance of the website, systems and digital solutions. He implements technologies that improve operational efficiency and strengthen the company’s digital presence.",
+        "imageSrc": "/images/mauro.PNG"
+      },
+      {
+        "name": "Milton Guambe",
+        "role": "HR & Finance Manager",
+        "bio": "Responsible for human resources and financial processes, including credit control, administration and decision support. Known for organisation, accountability and the ability to perform under pressure, contributing to Bioclean’s smooth internal operations.",
+        "imageSrc": "/images/milton.jpeg"
+      },
+      {
+        "name": "Isidro Simão",
+        "role": "Environmental Specialist & Consultant",
+        "bio": "Environmental Engineer with experience in environmental management, social safeguards and HSE on large-scale projects. He works on environmental impact assessment, licensing and management plans, ensuring compliance with national and international standards and promoting project sustainability.",
+        "imageSrc": "/images/isidro.jpeg"
+      }
+    ]
   },
   "homeProjects": {
     "kicker": "Project Gallery",
